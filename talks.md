@@ -1,5 +1,5 @@
 ---
-title: Talks & Teaching
+title: "Talks & Teaching"
 layout: default
 permalink: /talks
 ---
