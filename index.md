@@ -25,6 +25,6 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 Partial differential equations, kinetic theory, interacting particle systems, collective dynamics, gradient flows, and their connections to sampling and machine learning (SVGD, Langevin, transformers).
 
 ## About
-I study sampling and inference dynamics (e.g., Stein variational methods and underdamped dynamics) and multiscale limits of collective behavior models (Euler Alignment; Fokker–Planck–Navier–Stokes). My current work explores convergence for inference methods, and Boltzmann perspectives on foundation models.
+I study sampling and inference dynamics (e.g., Stein variational methods and underdamped dynamics) and multiscale limits of collective behavior models (Euler Alignment; Fokker–Planck–Navier–Stokes). My current work explores convergence for inference methods, and Boltzmann perspectives on foundation models in machine learning.
 
 > _Last updated: October 2025_
