@@ -8,6 +8,7 @@ permalink: /publications
   <a href="/">Home</a> ·
   <a href="/research">Research</a> ·
   <a href="/publications">Publications</a> ·
+  <a href="/talks">Talks & Teaching</a> ·
   <a href="/assets/cv.pdf">CV (PDF)</a>
 </p>
 <hr/>
