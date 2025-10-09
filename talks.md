@@ -2,6 +2,7 @@
 title: Talks & Teaching
 layout: default
 permalink: /talks
+nav: false
 ---
 
 <p style="margin-top:0.5rem">
