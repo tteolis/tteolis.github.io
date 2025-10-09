@@ -1,6 +1,6 @@
 # Trevor Teolis — Academic Website
 
-This repository powers **https://trevorteolis.github.io** via GitHub Pages.
+This repository powers **https://tteolis.github.io** via GitHub Pages.
 
 ## Quick start
 1. Ensure the repository is named `trevorteolis.github.io` and public.
