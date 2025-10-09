@@ -8,7 +8,7 @@ layout: default
   <a href="/research">Research</a> ·
   <a href="/publications">Publications</a> ·
   <a href="/talks">Talks & Teaching</a> ·
-  <a href="/assets/cv.pdf">CV (PDF)</a>
+  <a href="/assets/CV.pdf">CV (PDF)</a>
 </p>
 <hr/>
 
