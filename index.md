@@ -1,0 +1,30 @@
+---
+title: Home
+layout: default
+---
+
+<p style="margin-top:0.5rem">
+  <a href="/">Home</a> ·
+  <a href="/research">Research</a> ·
+  <a href="/publications">Publications</a> ·
+  <a href="/talks">Talks & Teaching</a> ·
+  <a href="/assets/cv.pdf">CV (PDF)</a>
+</p>
+<hr/>
+
+# Trevor Teolis
+
+**Postdoctoral Researcher**, Rice University  
+Department of Computational and Applied Mathematics & Operations Research (CMOR)  
+Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>  
+<a href="https://orcid.org/" target="_blank">ORCID</a> · <a href="#" target="_blank">Google Scholar</a> · <a href="https://arxiv.org/" target="_blank">arXiv</a> · <a href="https://github.com/trevorteolis" target="_blank">GitHub</a>
+
+---
+
+## Research Interests
+Partial differential equations, kinetic theory, interacting particle systems, collective dynamics, gradient flows (Wasserstein & Fisher–Rao), and their connections to sampling and machine learning (SVGD, Langevin, transformers).
+
+## About
+I study rigorous structures in sampling and inference dynamics (e.g., Stein variational methods and underdamped dynamics) and multiscale limits of collective behavior models (Euler Alignment; Fokker–Planck–Navier–Stokes). My current work explores hypocoercivity, invariant measures, and Boltzmann perspectives on foundation models.
+
+> _Last updated: October 2025_

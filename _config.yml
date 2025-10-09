@@ -1,0 +1,23 @@
+title: "Trevor Teolis"
+description: "Postdoctoral Researcher, Rice University — PDEs, kinetic theory, interacting particle systems, sampling and machine learning"
+theme: jekyll-theme-minimal
+logo: /assets/profile.jpg
+google_analytics:
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+nav_links:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research
+  - title: Publications
+    url: /publications
+  - title: Talks & Teaching
+    url: /talks
+  - title: CV
+    url: /assets/cv.pdf
