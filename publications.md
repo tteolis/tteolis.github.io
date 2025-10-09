@@ -15,7 +15,7 @@ permalink: /publications
 
 # Publications
 
-## Accepted & Published
+## Published
 - **R. Shvydkoy, T. Teolis.** <em>Microscopic, mesoscopic, and macroscopic descriptions of the Euler Alignment System with adaptive communication strength.</em> <strong>Discrete and Continuous Dynamical Systems</strong>, 2025.
 - **R. Shvydkoy, T. Teolis.** <em>Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength.</em> <strong>Abel Symposium</strong>, 2024.
 - **P. Nandori, T. Teolis.** <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em> <strong>Nonlinearity</strong>, 2021.
