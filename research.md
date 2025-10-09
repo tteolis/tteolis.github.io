@@ -15,11 +15,11 @@ permalink: /research
 
 # Research
 
-### Kinetic & Hydrodynamic Limits of Collective Dynamics
-Rigorous analysis of long-time behavior, multiscale coupling, and fluid–particle interaction systems (Euler Alignment; Fokker–Planck–Navier–Stokes).
-
 ### Stein Variational Dynamics & Sampling Flows
-Second-order (heavy-ball) SVGD; noisy underdamped variants; invariance and hypocoercivity; Fisher–Rao & Wasserstein gradient flows.
+Second-order (heavy-ball) SVGD; noisy underdamped variants; hypocoercivity; gradient-flows.
 
 ### Boltzmann Perspective on Foundation Models
 Kinetic/statistical formulations that illuminate transformer mechanisms via interacting particle systems.
+
+### Kinetic & Hydrodynamic Limits of Collective Dynamics
+Long-time behavior, kinetic and hydrodynamic descriptions (mean-field and hydrodynamic limits), and fluid–particle interaction systems (Euler Alignment; Fokker–Planck–Navier–Stokes).
