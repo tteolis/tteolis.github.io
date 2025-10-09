@@ -17,7 +17,7 @@ layout: default
 **Postdoctoral Researcher**, Rice University  
 Department of Computational and Applied Mathematics & Operations Research (CMOR)  
 Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>  
-<a href="https://orcid.org/" target="https://orcid.org/0009-0000-4288-4914">ORCID</a> · <a href="#" target="_blank">Google Scholar</a> · <a href="https://arxiv.org/" target="_blank">arXiv</a> · <a href="https://github.com/trevorteolis" target="_blank">GitHub</a>
+<a href="https://orcid.org/0009-0000-4288-4914" target="_blank">ORCID</a> · <a href="https://scholar.google.com/citations?user=x6yrwSIAAAAJ&hl=en" target="_blank">Google Scholar</a> · <a href="https://arxiv.org/" target="_blank">arXiv</a> · <a href="https://github.com/trevorteolis" target="_blank">GitHub</a>
 
 ---
 
