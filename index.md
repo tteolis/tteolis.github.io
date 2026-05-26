@@ -1,3 +1,49 @@
+---
+title: Home
+layout: default
+---
+
+<div id="top"></div>
+
+<p style="margin-top:0.5rem">
+  <a href="#top">Home</a> ·
+  <a href="#research">Research</a> ·
+  <a href="#publications">Publications</a> ·
+  <a href="#talks">Talks</a> ·
+  <a href="/assets/cv.pdf">CV (PDF)</a>
+</p>
+<hr/>
+
+# Trevor Teolis
+
+**Postdoctoral Researcher**, Rice University  
+Department of Computational and Applied Mathematics & Operations Research (CMOR)  
+Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>  
+<a href="https://orcid.org/0009-0000-4288-4914" target="_blank">ORCID</a> · 
+<a href="https://scholar.google.com/citations?user=x6yrwSIAAAAJ&hl=en" target="_blank">Google Scholar</a> · 
+<a href="https://arxiv.org/search/math?searchtype=author&query=Teolis,+T" target="_blank">arXiv</a> ·
+<a href="https://github.com/tteolis" target="_blank">GitHub</a>
+
+I work on machine learning for physical simulation, combining mathematical theory with computational surrogate modeling.
+
+---
+
+<section id="research"></section>
+
+## Research Interests
+
+Machine learning for physical simulation; foundation models for physics; mathematical theory of transformers; neural surrogate models for wave propagation and inverse problems.
+
+## Research Overview
+
+My work combines mathematical theory and scientific machine learning for physical simulation. On the theoretical side, I study how transformer architectures can represent kinetic and particle dynamics, including Boltzmann-type equations and the long-time behavior of self-attention. On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. This work draws on partial differential equations, kinetic theory, stochastic and interacting particle systems, synchronization, and collective dynamics.
+
+## Background
+
+I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work focused on interacting particle systems, collective dynamics, and multiscale limits, including Cucker–Smale, Euler Alignment, and Fokker–Planck–Navier–Stokes models.
+
+---
+
 <section id="publications"></section>
 
 ## Publications and Manuscripts
@@ -40,3 +86,43 @@
 - **P. Nandori and T. Teolis.**  
   <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em>  
   <strong>Nonlinearity</strong>, 2021.
+
+---
+
+<section id="talks"></section>
+
+## Talks and Presentations
+
+### Invited Talks
+
+- “Approximating Boltzmann solution maps by averaged measure-theoretic transformers.”  
+  Minisymposium <em>Mathematical Foundations of Learning for Infinite-Dimensional Systems and PDEs</em>, SIAM Conference on Mathematics of Data Science, Salt Lake City, Utah, November 2026. Upcoming.
+
+- “Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation.”  
+  <em>Models of Emergence and Collective Dynamics</em>, 15th AIMS Conference, Athens, Greece, July 2026. Upcoming.
+
+- “Nanbu particles as stochastic in-context maps for Boltzmann dynamics.”  
+  <em>Measure Flows for Inverse Problems and Machine Learning</em>, SIAM Conference on Uncertainty Quantification, Minneapolis, Minnesota, March 2026.
+
+### Research Presentations to Funders
+
+- “FLOWERS: A warp drive for neural PDE solvers.”  
+  Research presentation to project funders, Oxy Annual Project Review Meeting, Houston, Texas, May 2026.
+
+- “Interacting particle systems in machine learning and inference.”  
+  Presentation to project reviewers from TGS, GMIG Annual Project Review Workshop, Rice University, Houston, Texas, September 2025.
+
+### Contributed Talks
+
+- “The s-model and the unconditional alignment of particles in a fluid.”  
+  <em>Emergent Macroscopic Phenomena in Non-equilibrium Statistical Mechanics</em>, GSSI, L’Aquila, Italy, May 2025.
+
+- “A new model of collective dynamics with adaptive communication strength.”  
+  KinMAT Workshop, University of Warsaw, Poland, June 2024.
+
+- “Proof techniques for alignment and flocking.”  
+  IDEAL Seminar, online, March 2024.
+
+---
+
+> _Last updated: May 2026_
