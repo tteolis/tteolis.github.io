@@ -1,46 +1,42 @@
----
-title: Home
-layout: default
----
+<section id="publications"></section>
 
-<p style="margin-top:0.5rem">
-  <a href="/">Home</a> ·
-  <a href="/research">Research</a> ·
-  <a href="/publications">Publications</a> ·
-  <a href="/talks">Talks & Teaching</a> ·
-  <a href="/assets/cv.pdf">CV (PDF)</a>
-</p>
-<hr/>
+## Publications and Manuscripts
 
-# Trevor Teolis
+### Manuscripts in Preparation
 
-**Postdoctoral Researcher**, Rice University  
-Department of Computational and Applied Mathematics & Operations Research (CMOR)  
-Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>  
-<a href="https://orcid.org/0009-0000-4288-4914" target="_blank">ORCID</a> · 
-<a href="https://scholar.google.com/citations?user=x6yrwSIAAAAJ&hl=en" target="_blank">Google Scholar</a> · 
-<a href="https://arxiv.org/search/math?searchtype=author&query=Teolis,+T" target="_blank">arXiv</a> ·
-<a href="https://github.com/tteolis" target="_blank">GitHub</a>
+- **T. Teolis and M. V. de Hoop.**  
+  <em>Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation.</em>
 
-I work on machine learning for physical simulation, combining mathematical theory with computational surrogate modeling.
+- **T. Teolis**, with N. Trillos, S. Li, J. Peszek, J. Maranzatto, S. Akkoc, K. Reidl, and S. Ulukus.  
+  <em>Rich Dynamics of Transformers.</em>
 
----
+- **T. Teolis, S. D. Mis, and M. V. de Hoop.**  
+  <em>FLOWERS for fast 3D Helmholtz forward modeling with applications to full-waveform inversion.</em>
 
-## Research Interests
+### Preprints
 
-Machine learning for physical simulation; foundation models for physics; kinetic and dynamical perspectives on transformers; neural surrogate models for wave propagation and inverse problems.
+- **A. Balaji, T. Teolis, S. D. Mis, J. A. Lara Benitez, C. Wang, and M. V. de Hoop.**  
+  <em><a href="https://arxiv.org/abs/2602.11197" target="_blank">Hybrid operator learning of wave scattering maps in high-contrast media.</a></em>  
+  arXiv:2602.11197, 2026.
 
-## Research Overview
+- **R. Shvydkoy and T. Teolis.**  
+  <em><a href="https://arxiv.org/abs/2508.07415" target="_blank">Long-time behavior of the Fokker–Planck–Navier–Stokes Alignment System.</a></em>  
+  arXiv:2508.07415, 2025.
 
-My current research develops mathematical foundations and computational methods for machine-learning models of physical systems. I am especially interested in how ideas from kinetic theory, dynamical systems, and particle methods can clarify the behavior of transformer architectures, and how neural architectures can accelerate simulation and inversion for wave physics. This work draws on partial differential equations, kinetic theory, stochastic and interacting particle systems, synchronization, and collective dynamics.
+- **A. Chertock, R. Shvydkoy, and T. Teolis.**  
+  <em><a href="https://arxiv.org/abs/2508.05478" target="_blank">Modulation of the monokinetic limit for models of collective dynamics.</a></em>  
+  arXiv:2508.05478, 2025.
 
-## Current Directions
+### Publications
 
-- **Kinetic and dynamical perspectives on transformers:** theoretical work connecting Boltzmann-type stochastic dynamics, deterministic learned transport maps, and the long-time behavior of self-attention.
-- **Neural surrogate models for wave physics:** computational work on Helmholtz problems, wave propagation, subsurface imaging, and inverse problems.
+- **R. Shvydkoy and T. Teolis.**  
+  <em>Microscopic, mesoscopic, and macroscopic descriptions of the Euler Alignment System with adaptive communication strength.</em>  
+  <strong>Discrete and Continuous Dynamical Systems</strong>, accepted, 2025.
 
-## Background
+- **R. Shvydkoy and T. Teolis.**  
+  <em>Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength.</em>  
+  <strong>Abel Symposium Proceedings</strong>, accepted, 2024.
 
-I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work focused on interacting particle systems, collective dynamics, and multiscale limits, including Cucker–Smale, Euler Alignment, and Fokker–Planck–Navier–Stokes models.
-
-> _Last updated: May 2026_
+- **P. Nandori and T. Teolis.**  
+  <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em>  
+  <strong>Nonlinearity</strong>, 2021.
