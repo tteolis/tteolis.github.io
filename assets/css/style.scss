@@ -1,0 +1,12 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header h1 {
+  display: none;
+}
+
+header p.view {
+  display: none;
+}
