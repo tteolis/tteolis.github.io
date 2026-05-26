@@ -31,8 +31,7 @@ Separately, I am part of a larger collaborative project on transformer dynamics,
 On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, collective dynamics, and fluid mechanics.
 
 ## Background
-
-I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and developed multiscale links between microscopic particle dynamics, kinetic descriptions, and macroscopic fluid equations.
+I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and established rigorous limits from microscopic particle dynamics to kinetic and macroscopic fluid equations.
 
 ---
 
