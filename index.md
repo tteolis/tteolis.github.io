@@ -59,7 +59,7 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 - **T. Teolis and M. V. de Hoop.**  
   <em>Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation.</em>
 
-- **T. Teolis**, with N. Trillos, S. Li, J. Peszek, J. Maranzatto, S. Akkoc, K. Reidl, and S. Ulukus.  
+- **T. Teolis**, with **N. Trillos, S. Li, J. Peszek, J. Maranzatto, S. Akkoc, K. Reidl, and S. Ulukus.**  
   <em>Rich Dynamics of Transformers.</em>
 
 - **T. Teolis, S. D. Mis, and M. V. de Hoop.**  
