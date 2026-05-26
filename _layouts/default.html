@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    {% seo %}
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .wrapper {
+        width: 960px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 250px minmax(0, 1fr);
+        gap: 40px;
+        padding: 40px 20px;
+      }
+
+      header {
+        position: sticky;
+        top: 30px;
+        align-self: start;
+        text-align: center;
+      }
+
+      header img {
+        width: 175px;
+        height: 175px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+      }
+
+      .sidebar-name {
+        font-size: 1.15rem;
+        font-weight: 700;
+        margin-bottom: 0.25rem;
+      }
+
+      .sidebar-title {
+        font-size: 0.95rem;
+        line-height: 1.35;
+        margin-bottom: 1rem;
+      }
+
+      .sidebar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+        margin-top: 1rem;
+      }
+
+      .sidebar-nav a {
+        text-decoration: none;
+      }
+
+      section {
+        min-width: 0;
+      }
+
+      @media print, screen and (max-width: 960px) {
+        .wrapper {
+          width: auto;
+          display: block;
+          padding: 25px;
+        }
+
+        header {
+          position: static;
+          margin-bottom: 2rem;
+        }
+
+        .sidebar-nav {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 0.75rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        {% if site.logo %}
+          <img src="{{ site.logo | relative_url }}" alt="Trevor Teolis">
+        {% endif %}
+
+        <div class="sidebar-name">Trevor Teolis</div>
+
+        <div class="sidebar-title">
+          Postdoctoral Researcher<br>
+          Rice University
+        </div>
+
+        <nav class="sidebar-nav">
+          {% for item in site.nav_links %}
+            <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </header>
+
+      <section>
+        {{ content }}
+      </section>
+    </div>
+  </body>
+</html>
