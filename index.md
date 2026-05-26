@@ -24,7 +24,7 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 <a href="https://arxiv.org/search/math?searchtype=author&query=Teolis,+T" target="_blank">arXiv</a> ·
 <a href="https://github.com/tteolis" target="_blank">GitHub</a>
 
-I work on machine learning for physical simulation, combining mathematical theory with computational neural surrogate modeling.
+My research develops mathematical foundations for machine learning and kinetic equations, alongside neural surrogate models for physical simulation.
 
 ---
 
