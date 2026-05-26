@@ -36,7 +36,12 @@ Machine learning for physical simulation; foundation models for physics; mathema
 
 ## Research Overview
 
-My work combines mathematical theory and scientific machine learning for physical simulation. On the theoretical side, I study how transformer architectures can represent kinetic and particle dynamics, including Boltzmann-type equations and the long-time behavior of self-attention. On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. This work draws on partial differential equations, kinetic theory, stochastic and interacting particle systems, synchronization, and collective dynamics.
+My research develops mathematical and computational approaches to learning the evolution of physical systems.
+My current theoretical work, joint with Maarten de Hoop, studies the approximation of Boltzmann-type kinetic equations by machine-learning architectures. A central idea is to represent Boltzmann dynamics through stochastic in-context maps, inspired by Nanbu particle systems and jump-process formulations. The analytical goal is to show that averages of such measure-theoretic transformer maps approximate the Boltzmann solution operator in Wasserstein-type metrics.
+
+Separately, I am part of a larger collaborative project on transformer dynamics, studying the long-time behavior of self-attention through interacting-particle models.
+
+On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, synchronization, and collective dynamics.
 
 ## Background
 
