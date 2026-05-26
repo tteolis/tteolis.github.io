@@ -8,7 +8,8 @@ layout: default
 # Trevor Teolis
 
 **Postdoctoral Researcher**, Rice University  
-Department of Computational and Applied Mathematics & Operations Research (CMOR)
+Department of Computational and Applied Mathematics & Operations Research (CMOR)  
+Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 
 My research develops mathematical foundations for machine learning and kinetic equations, alongside neural surrogate models for physical simulation.
 
