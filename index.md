@@ -22,17 +22,17 @@ Machine learning for physical simulation; kinetic and fluid equations; interacti
 
 ## Research Overview
 
-My research develops mathematical and computational approaches to learning the evolution of physical systems.
+My research develops mathematical and computational approaches to learning the evolution of physical systems, with a focus on particle, kinetic, and fluid models.
 
-My current theoretical work, joint with Maarten de Hoop, studies the approximation of Boltzmann-type kinetic equations by machine-learning architectures. A central idea is to represent Boltzmann dynamics through stochastic in-context maps, inspired by Nanbu particle systems and jump-process formulations. The analytical goal is to show that averages of such measure-theoretic transformer maps approximate the Boltzmann solution operator in Wasserstein-type metrics.
+My current theoretical work, joint with Maarten de Hoop, studies the approximation of Boltzmann-type kinetic equations by machine-learning architectures. A central idea is to represent Boltzmann dynamics through stochastic in-context maps, inspired by Nanbu particle systems and jump-process formulations. Since kinetic equations such as Boltzmann provide a phase-space description underlying fluid models, this project can also be viewed as part of a broader effort to understand foundation models for fluid and continuum dynamics. The analytical goal is to show that averages of measure-theoretic transformer maps approximate the Boltzmann solution operator in Wasserstein-type metrics.
 
 Separately, I am part of a larger collaborative project on transformer dynamics, studying the long-time behavior of self-attention through interacting-particle models.
 
-On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, synchronization, and collective dynamics.
+On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, collective dynamics, and fluid mechanics.
 
 ## Background
 
-I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work focused on interacting particle systems, collective dynamics, and multiscale limits, including Cucker–Smale, Euler Alignment, and Fokker–Planck–Navier–Stokes models.
+I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and developed multiscale links between microscopic particle dynamics, kinetic descriptions, and macroscopic fluid equations.
 
 ---
 
