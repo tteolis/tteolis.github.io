@@ -42,7 +42,7 @@ My current theoretical work, joint with Maarten de Hoop, studies the approximati
 
 Separately, I am part of a larger collaborative project on transformer dynamics, studying the long-time behavior of self-attention through interacting-particle models.
 
-On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, synchronization, and collective dynamics.
+On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, and collective dynamics.
 
 ## Background
 
