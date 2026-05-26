@@ -3,16 +3,100 @@ title: Home
 layout: default
 ---
 
+<style>
+  .home-layout {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  .sidebar {
+    position: sticky;
+    top: 1.5rem;
+    text-align: center;
+  }
+
+  .profile-photo {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+
+  .sidebar-name {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+  }
+
+  .sidebar-title {
+    font-size: 0.95rem;
+    line-height: 1.35;
+    margin-bottom: 1rem;
+  }
+
+  .sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+    margin-top: 1rem;
+  }
+
+  .sidebar-nav a {
+    text-decoration: none;
+  }
+
+  .content {
+    min-width: 0;
+  }
+
+  @media (max-width: 760px) {
+    .home-layout {
+      display: block;
+    }
+
+    .sidebar {
+      position: static;
+      margin-bottom: 2rem;
+    }
+
+    .sidebar-nav {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem;
+    }
+  }
+</style>
+
 <div id="top"></div>
 
-<p style="margin-top:0.5rem">
-  <a href="#top">Home</a> ·
-  <a href="#research">Research</a> ·
-  <a href="#publications">Publications</a> ·
-  <a href="#talks">Talks</a> ·
+<div class="home-layout">
+
+<aside class="sidebar">
+
+<img src="/assets/profile-photo.jpg" alt="Trevor Teolis" class="profile-photo">
+
+<div class="sidebar-name">Trevor Teolis</div>
+
+<div class="sidebar-title">
+Postdoctoral Researcher<br>
+Rice University
+</div>
+
+<nav class="sidebar-nav">
+  <a href="#top">Home</a>
+  <a href="#research">Research</a>
+  <a href="#publications">Publications</a>
+  <a href="#talks">Talks</a>
   <a href="/assets/cv.pdf">CV (PDF)</a>
-</p>
-<hr/>
+</nav>
+
+</aside>
+
+<main class="content">
 
 # Trevor Teolis
 
@@ -59,7 +143,7 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 - **T. Teolis and M. V. de Hoop.**  
   <em>Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation.</em>
 
-- **T. Teolis**, with **N. Trillos, S. Li, J. Peszek, J. Maranzatto, S. Akkoc, K. Reidl, and S. Ulukus.**  
+- **T. Teolis**, with N. Trillos, S. Li, J. Peszek, J. Maranzatto, S. Akkoc, K. Reidl, and S. Ulukus.  
   <em>Rich Dynamics of Transformers.</em>
 
 - **T. Teolis, S. D. Mis, and M. V. de Hoop.**  
@@ -111,3 +195,7 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 ---
 
 > _Last updated: May 2026_
+
+</main>
+
+</div>
