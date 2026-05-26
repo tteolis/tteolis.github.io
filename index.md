@@ -18,7 +18,7 @@ My research develops mathematical foundations for machine learning and kinetic e
 
 ## Research Interests
 
-Machine learning for physical simulation; foundation models for physics; mathematical theory of transformers; neural surrogate models for wave propagation and inverse problems.
+Machine learning for physical simulation; kinetic and fluid equations; interacting particle systems; foundation models for physics; mathematical theory of transformers; neural surrogate models for wave propagation and inverse problems.
 
 ## Research Overview
 
