@@ -24,3 +24,13 @@ nav_links:
     url: /#talks
   - title: CV
     url: /assets/cv.pdf
+
+contact_links:
+  - title: Email
+    url: mailto:tt111@rice.edu
+  - title: ORCID
+    url: https://orcid.org/0009-0000-4288-4914
+  - title: Google Scholar
+    url: https://scholar.google.com/citations?user=x6yrwSIAAAAJ&hl=en
+  - title: GitHub
+    url: https://github.com/tteolis
