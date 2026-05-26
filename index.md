@@ -37,6 +37,7 @@ Machine learning for physical simulation; foundation models for physics; mathema
 ## Research Overview
 
 My research develops mathematical and computational approaches to learning the evolution of physical systems.
+
 My current theoretical work, joint with Maarten de Hoop, studies the approximation of Boltzmann-type kinetic equations by machine-learning architectures. A central idea is to represent Boltzmann dynamics through stochastic in-context maps, inspired by Nanbu particle systems and jump-process formulations. The analytical goal is to show that averages of such measure-theoretic transformer maps approximate the Boltzmann solution operator in Wasserstein-type metrics.
 
 Separately, I am part of a larger collaborative project on transformer dynamics, studying the long-time behavior of self-attention through interacting-particle models.
@@ -82,11 +83,11 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 - **R. Shvydkoy and T. Teolis.**  
   <em>Microscopic, mesoscopic, and macroscopic descriptions of the Euler Alignment System with adaptive communication strength.</em>  
-  <strong>Discrete and Continuous Dynamical Systems</strong>, accepted, 2025.
+  <strong>Discrete and Continuous Dynamical Systems</strong>, 2025.
 
 - **R. Shvydkoy and T. Teolis.**  
   <em>Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength.</em>  
-  <strong>Abel Symposium Proceedings</strong>, accepted, 2024.
+  <strong>Abel Symposium Proceedings</strong>, 2024.
 
 - **P. Nandori and T. Teolis.**  
   <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em>  
@@ -96,9 +97,7 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 <section id="talks"></section>
 
-## Talks and Presentations
-
-### Invited Talks
+## Selected Invited Talks
 
 - “Approximating Boltzmann solution maps by averaged measure-theoretic transformers.”  
   Minisymposium <em>Mathematical Foundations of Learning for Infinite-Dimensional Systems and PDEs</em>, SIAM Conference on Mathematics of Data Science, Salt Lake City, Utah, November 2026. Upcoming.
@@ -108,25 +107,6 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 - “Nanbu particles as stochastic in-context maps for Boltzmann dynamics.”  
   <em>Measure Flows for Inverse Problems and Machine Learning</em>, SIAM Conference on Uncertainty Quantification, Minneapolis, Minnesota, March 2026.
-
-### Research Presentations to Funders
-
-- “FLOWERS: A warp drive for neural PDE solvers.”  
-  Research presentation to project funders, Oxy Annual Project Review Meeting, Houston, Texas, May 2026.
-
-- “Interacting particle systems in machine learning and inference.”  
-  Presentation to project reviewers from TGS, GMIG Annual Project Review Workshop, Rice University, Houston, Texas, September 2025.
-
-### Contributed Talks
-
-- “The s-model and the unconditional alignment of particles in a fluid.”  
-  <em>Emergent Macroscopic Phenomena in Non-equilibrium Statistical Mechanics</em>, GSSI, L’Aquila, Italy, May 2025.
-
-- “A new model of collective dynamics with adaptive communication strength.”  
-  KinMAT Workshop, University of Warsaw, Poland, June 2024.
-
-- “Proof techniques for alignment and flocking.”  
-  IDEAL Seminar, online, March 2024.
 
 ---
 
