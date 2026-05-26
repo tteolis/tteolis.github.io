@@ -8,7 +8,12 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Theme stylesheet -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- Icons: Font Awesome for Email/GitHub, Academicons for ORCID/Google Scholar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 
     <style>
       .wrapper {
@@ -57,6 +62,18 @@
       .sidebar-nav a,
       .sidebar-links a {
         text-decoration: none;
+      }
+
+      .sidebar-links a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.45rem;
+      }
+
+      .sidebar-links i {
+        width: 1.1rem;
+        text-align: center;
       }
 
       .sidebar-divider {
@@ -115,8 +132,9 @@
 
         <nav class="sidebar-links">
           {% for item in site.contact_links %}
-            <a href="{{ item.url }}" {% unless item.url contains 'mailto:' %}target="_blank"{% endunless %}>
-              {{ item.title }}
+            <a href="{{ item.url }}" {% unless item.url contains 'mailto:' %}target="_blank" rel="noopener noreferrer"{% endunless %}>
+              <i class="{{ item.icon }}"></i>
+              <span>{{ item.title }}</span>
             </a>
           {% endfor %}
         </nav>
