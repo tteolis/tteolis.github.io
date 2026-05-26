@@ -26,11 +26,15 @@ nav_links:
     url: /assets/cv.pdf
 
 contact_links:
-  - title: "Email"
+  - title: Email
     url: mailto:tt111@rice.edu
+    icon: fa-solid fa-envelope
   - title: ORCID
     url: https://orcid.org/0009-0000-4288-4914
+    icon: ai ai-orcid
   - title: Google Scholar
     url: https://scholar.google.com/citations?user=x6yrwSIAAAAJ&hl=en
+    icon: ai ai-google-scholar
   - title: GitHub
     url: https://github.com/tteolis
+    icon: fa-brands fa-github
