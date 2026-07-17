@@ -21,5 +21,6 @@ permalink: /publications
 - **P. Nandori, T. Teolis.** <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em> <strong>Nonlinearity</strong>, 2021.
 
 ## Preprints / Under Review
+- **T. Teolis, M. V. de Hoop.** <em>Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits.</em> Preprint: <a href="https://arxiv.org/abs/2607.14527" target="_blank">arXiv:2607.14527</a> (2026).
 - **R. Shvydkoy, T. Teolis.** <em>Long-time behavior of the Fokker–Planck–Navier–Stokes Alignment System.</em> Preprint: <a href="https://arxiv.org/abs/2508.07415" target="_blank">arXiv:2508.07415</a> (2025).
 - **A. Chertock, R. Shvydkoy, T. Teolis.** <em>Modulation of the monokinetic limit for models of collective dynamics.</em> Preprint: <a href="https://arxiv.org/abs/2508.05478" target="_blank">arXiv:2508.05478</a> (2025).

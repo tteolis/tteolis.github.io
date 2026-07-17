@@ -53,6 +53,10 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 ### Preprints
 
+- **T. Teolis and M. V. de Hoop.**  
+  <em><a href="https://arxiv.org/abs/2607.14527" target="_blank">Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits.</a></em>  
+  arXiv:2607.14527, 2026.
+
 - **A. Balaji, T. Teolis, S. D. Mis, J. A. Lara Benitez, C. Wang, and M. V. de Hoop.**  
   <em><a href="https://arxiv.org/abs/2602.11197" target="_blank">Hybrid operator learning of wave scattering maps in high-contrast media.</a></em>  
   arXiv:2602.11197, 2026.
@@ -96,4 +100,4 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 ---
 
-> _Last updated: May 2026_
+> _Last updated: July 2026_
