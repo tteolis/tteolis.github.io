@@ -16,7 +16,7 @@ permalink: /talks
 # Talks & Teaching
 
 ## Invited Talks 
-- “Unconditional alignment of a Fokker–Planck–Navier–Stokes system of interacting particles.” <em>Models of emergence and collective dynamics</em>, 15th AIMS Conference, Athens, Greece, July 6–10, 2026 (upcoming).
+- “Unconditional alignment of a Fokker–Planck–Navier–Stokes system of interacting particles.” <em>Models of emergence and collective dynamics</em>, 15th AIMS Conference, Athens, Greece, July 6–10, 2026.
 - “Exponential convergence for second-order SVGD.” <em>Measure Flows for Inverse Problems and Machine Learning</em>, SIAM UQ, Minneapolis, Mar 22–25, 2026 (upcoming).
 
 ## Contributed Talks (Selected)
