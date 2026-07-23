@@ -7,6 +7,7 @@
     {% seo %}
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/jpeg" href="{{ site.profile_image | relative_url }}">
 
     <!-- Theme stylesheet -->
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
@@ -83,7 +84,7 @@
         width: 80%;
       }
 
-      section {
+      main {
         min-width: 0;
       }
 
@@ -108,13 +109,56 @@
         }
       }
     </style>
+
+    {% if page.url == "/" %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfilePage",
+          "@id": "{{ '/' | absolute_url }}#profile",
+          "url": "{{ '/' | absolute_url }}",
+          "name": "Trevor Teolis",
+          "description": "{{ page.description | default: site.description | strip_newlines | escape }}",
+          "mainEntity": {
+            "@type": "Person",
+            "@id": "{{ '/' | absolute_url }}#person",
+            "name": "Trevor Teolis",
+            "url": "{{ '/' | absolute_url }}",
+            "image": "{{ site.profile_image | absolute_url }}",
+            "jobTitle": "Postdoctoral Researcher",
+            "worksFor": {
+              "@type": "CollegeOrUniversity",
+              "name": "Rice University",
+              "url": "https://www.rice.edu/"
+            },
+            "alumniOf": {
+              "@type": "CollegeOrUniversity",
+              "name": "University of Illinois Chicago",
+              "url": "https://www.uic.edu/"
+            },
+            "sameAs": [
+              "https://orcid.org/0009-0000-4288-4914",
+              "https://scholar.google.com/citations?user=x6yrwSIAAAAJ",
+              "https://github.com/tteolis"
+            ],
+            "knowsAbout": [
+              "Machine learning for physical simulation",
+              "Kinetic equations",
+              "Interacting particle systems",
+              "Stein variational gradient descent",
+              "Scientific computing"
+            ]
+          }
+        }
+      </script>
+    {% endif %}
   </head>
 
   <body>
     <div class="wrapper">
       <header>
-        {% if site.logo %}
-          <img src="{{ site.logo | relative_url }}" alt="Trevor Teolis">
+        {% if site.profile_image %}
+          <img src="{{ site.profile_image | relative_url }}" alt="Trevor Teolis" width="1381" height="1413" fetchpriority="high">
         {% endif %}
 
         <div class="sidebar-title">
@@ -122,7 +166,7 @@
           Rice University
         </div>
 
-        <nav class="sidebar-nav">
+        <nav class="sidebar-nav" aria-label="Primary">
           {% for item in site.nav_links %}
             <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {% endfor %}
@@ -130,9 +174,9 @@
 
         <hr class="sidebar-divider">
 
-        <nav class="sidebar-links">
+        <nav class="sidebar-links" aria-label="Profiles and contact">
           {% for item in site.contact_links %}
-            <a href="{{ item.url }}" {% unless item.url contains 'mailto:' %}target="_blank" rel="noopener noreferrer"{% endunless %}>
+            <a href="{{ item.url }}" {% unless item.url contains 'mailto:' %}target="_blank" rel="me noopener noreferrer"{% endunless %}>
               <i class="{{ item.icon }}"></i>
               <span>{{ item.title }}</span>
             </a>
@@ -140,9 +184,9 @@
         </nav>
       </header>
 
-      <section>
+      <main id="main-content">
         {{ content }}
-      </section>
+      </main>
     </div>
   </body>
 </html>

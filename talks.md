@@ -2,6 +2,7 @@
 title: "Talks & Teaching"
 layout: default
 permalink: /talks
+description: "Invited and contributed talks by Trevor Teolis on kinetic equations, SVGD, machine learning, interacting particle systems, and collective dynamics."
 ---
 
 <p style="margin-top:0.5rem">
@@ -17,7 +18,7 @@ permalink: /talks
 
 ## Invited Talks 
 - “Unconditional alignment of a Fokker–Planck–Navier–Stokes system of interacting particles.” <em>Models of emergence and collective dynamics</em>, 15th AIMS Conference, Athens, Greece, July 6–10, 2026.
-- “Exponential convergence for second-order SVGD.” <em>Measure Flows for Inverse Problems and Machine Learning</em>, SIAM UQ, Minneapolis, Mar 22–25, 2026 (upcoming).
+- “Exponential convergence for second-order SVGD.” <em>Measure Flows for Inverse Problems and Machine Learning</em>, SIAM UQ, Minneapolis, Mar 22–25, 2026.
 
 ## Contributed Talks (Selected)
 - “Interacting particle systems in machine learning and inference.” GMIG annual meeting, Rice University, Sept 2025.

@@ -1,8 +1,34 @@
-title: ""
-description: ""
+title: "Trevor Teolis"
+tagline: "Applied Mathematics, Machine Learning, and Kinetic Theory"
+description: "Trevor Teolis is an applied mathematician at Rice University researching machine learning, kinetic equations, interacting particle systems, and scientific computing."
+url: "https://tteolis.github.io"
+baseurl: ""
+lang: en-US
+locale: en_US
+repository: tteolis/tteolis.github.io
+
 theme: jekyll-theme-minimal
-logo: /assets/profile-photo.jpg
+profile_image: /assets/profile-photo.jpg
 google_analytics:
+
+author:
+  name: Trevor Teolis
+  url: https://tteolis.github.io
+
+social:
+  name: Trevor Teolis
+  links:
+    - https://orcid.org/0009-0000-4288-4914
+    - https://scholar.google.com/citations?user=x6yrwSIAAAAJ
+    - https://github.com/tteolis
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/profile-photo.jpg
+        alt: "Trevor Teolis"
 
 markdown: kramdown
 kramdown:
@@ -15,13 +41,13 @@ plugins:
 
 nav_links:
   - title: Home
-    url: /#top
+    url: /
   - title: Research
-    url: /#research
+    url: /research
   - title: Publications
-    url: /#publications
+    url: /publications
   - title: Talks
-    url: /#talks
+    url: /talks
   - title: CV
     url: /assets/cv.pdf
 

@@ -1,6 +1,6 @@
 ---
-title: Home
 layout: default
+description: "Trevor Teolis is a postdoctoral researcher at Rice University working on mathematical machine learning, kinetic equations, interacting particles, and scientific computing."
 ---
 
 <div id="top"></div>
