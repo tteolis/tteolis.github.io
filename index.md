@@ -47,13 +47,20 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 - **T. Teolis and M. V. de Hoop.**  
   <em>Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation.</em>
 
-- **T. Teolis**, with **N. Trillos, S. Li, J. Peszek, J. Maranzatto, S. Akkoc, K. Reidl, and S. Ulukus.**  
-  <em>Rich Dynamics of Transformers.</em>
+- **T. Teolis and M. V. de Hoop.**<br>
+  <em>Uniform-in-Time Propagation of Chaos for Target-Weighted Riesz SVGD: A Diagonal Particle–Kernel Limit.</em>
+
+- **T. Teolis and M. V. de Hoop.**<br>
+  <em>Uniform-in-Time Propagation of Chaos for Target-Adapted Bessel SVGD.</em>
 
 - **T. Teolis, S. D. Mis, and M. V. de Hoop.**  
   <em>FLOWERS for fast 3D Helmholtz forward modeling with applications to full-waveform inversion.</em>
 
 ### Preprints
+
+- **S. Li, T. J. Maranzatto, J. Peszek, T. Teolis, S. Akkoc, K. Riedl, S. Ulukus, and N. García Trillos.**<br>
+  <em><a href="https://arxiv.org/abs/2607.18584" target="_blank">On the Diverse Dynamical Behaviors Arising in Deep Linear Transformers.</a></em><br>
+  arXiv:2607.18584, 2026.
 
 - **T. Teolis and M. V. de Hoop.**  
   <em><a href="https://arxiv.org/abs/2607.14527" target="_blank">Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits.</a></em>  
