@@ -1,0 +1,146 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=0.55in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{microtype}
+\pagestyle{plain}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1pt}
+\setlist[itemize]{leftmargin=1.15em,itemsep=0.5pt,topsep=1pt,parsep=0pt}
+\setlist[enumerate]{leftmargin=1.45em,itemsep=0.8pt,topsep=1pt,parsep=0pt}
+\titleformat{\section}{\large\bfseries}{}{0pt}{}[\vspace{-5pt}\rule{\textwidth}{0.35pt}]
+\titlespacing*{\section}{0pt}{5pt}{2pt}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0pt}{}
+\titlespacing*{\subsection}{0pt}{3pt}{1pt}
+\newcommand{\entry}[2]{\textbf{#1}\hfill #2\\}
+\newcommand{\paper}[3]{#1. ``#2.'' #3}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries Trevor Teolis}\\[3pt]
+  Postdoctoral Researcher, Rice University\\
+  \href{mailto:tt111@rice.edu}{tt111@rice.edu} $\mid$
+  \href{https://tteolis.github.io}{tteolis.github.io} $\mid$
+  \href{https://orcid.org/0009-0000-4288-4914}{ORCID}
+\end{center}
+\fontsize{9}{10.5}\selectfont
+
+\section*{Research Interests}
+Partial differential equations, kinetic theory, interacting particle systems, collective dynamics, sampling methods, operator learning, and mathematical foundations of machine learning.
+
+\section*{Education}
+\entry{University of Illinois Chicago, Chicago, IL}{Ph.D., Mathematics, April 2025}
+Dissertation: \emph{Well-posedness, long-time behavior, and multi-scale description of models of collective dynamics}. Advisor: Roman Shvydkoy.
+
+\entry{University of Maryland, College Park, MD}{B.S., Mathematics and Computer Science, May 2019}
+
+\section*{Academic Positions}
+\entry{Rice University, Houston, TX}{Postdoctoral Researcher, Aug 2025--present}
+Advisor: Maarten V. de Hoop.
+
+\entry{University of Illinois Chicago, Chicago, IL}{Doctoral Researcher, Aug 2020--May 2025}
+Advisor: Roman Shvydkoy.
+
+\section*{Publications}
+\begin{enumerate}
+  \item \paper{R. Shvydkoy and T. Teolis}{Microscopic, mesoscopic, and macroscopic descriptions of the Euler Alignment System with adaptive communication strength}{\emph{Discrete and Continuous Dynamical Systems}, 2025.}
+  \item \paper{R. Shvydkoy and T. Teolis}{Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength}{\emph{Abel Symposium Proceedings}, 2024.}
+  \item \paper{P. Nandori and T. Teolis}{Local Equilibrium of Particle Density in Planar Lorentz Processes}{\emph{Nonlinearity}, 2021.}
+\end{enumerate}
+
+\section*{Preprints}
+\begin{enumerate}
+  \item \paper{T. Teolis and M. V. de Hoop}{In-context Maps as a Collision Operator: Stochastic Jump Transformer}{Preprint, 2026.}
+  \item \paper{T. Teolis and M. V. de Hoop}{Target-adapted Green-Bessel SVGD: uniform-in-time propagation of chaos and last-iterate consistency}{\href{https://arxiv.org/abs/2609.08122}{arXiv:2609.08122}, 2026.}
+  \item \paper{S. Li, T. J. Maranzatto, J. Peszek, T. Teolis, S. Akkoc, K. Riedl, S. Ulukus, and N. Garc\'ia Trillos}{On the Diverse Dynamical Behaviors Arising in Deep Linear Transformers}{\href{https://arxiv.org/abs/2607.18584}{arXiv:2607.18584}, 2026.}
+  \item \paper{T. Teolis and M. V. de Hoop}{Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits}{\href{https://arxiv.org/abs/2607.14527}{arXiv:2607.14527}, 2026.}
+  \item \paper{A. Balaji, T. Teolis, S. D. Mis, J. A. Lara Benitez, C. Wang, and M. V. de Hoop}{Hybrid operator learning of wave scattering maps in high-contrast media}{\href{https://arxiv.org/abs/2602.11197}{arXiv:2602.11197}, 2026.}
+  \item \paper{R. Shvydkoy and T. Teolis}{Long-time behavior of the Fokker--Planck--Navier--Stokes Alignment System}{\href{https://arxiv.org/abs/2508.07415}{arXiv:2508.07415}, 2025.}
+  \item \paper{A. Chertock, R. Shvydkoy, and T. Teolis}{Modulation of the monokinetic limit for models of collective dynamics}{\href{https://arxiv.org/abs/2508.05478}{arXiv:2508.05478}, 2025.}
+\end{enumerate}
+
+\section*{Manuscripts in Preparation}
+\begin{enumerate}
+  \item \paper{T. Teolis, S. D. Mis, and M. V. de Hoop}{Hybrid Markov Kernel Networks for Operator Learning: Applications to Helmholtz Equations}{}
+  \item \paper{T. Teolis, A. Siahkoohi, and M. V. de Hoop}{Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional}{}
+  \item \paper{T. Teolis, S. D. Mis, and M. V. de Hoop}{FLOWERS for fast 3D Helmholtz forward modeling with applications to full-waveform inversion}{}
+\end{enumerate}
+
+\newpage
+\section*{Talks and Presentations}
+\subsection*{Invited Talks}
+\begin{itemize}
+  \item ``Approximating Boltzmann solution maps by averaged measure-theoretic transformers,'' minisymposium \emph{Mathematical Foundations of Learning for Infinite-Dimensional Systems and PDEs}, SIAM Conference on Mathematics of Data Science, Salt Lake City, Utah, November 16--20, 2026. (upcoming)
+  \item ``Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation,'' \emph{Models of Emergence and Collective Dynamics}, 15th AIMS Conference, Athens, Greece, July 6--10, 2026.
+  \item ``Nanbu particles as stochastic in-context maps for Boltzmann dynamics,'' \emph{Measure Flows for Inverse Problems and Machine Learning}, SIAM Conference on Uncertainty Quantification, Minneapolis, Minnesota, March 22--25, 2026.
+\end{itemize}
+
+\subsection*{Contributed Talks}
+\begin{itemize}
+  \item Inverse Days 2026, Finnish Inverse Problems Society, University of Jyv\"askyl\"a, Finland, December 14--17, 2026. (upcoming)
+  \item ``The s-model and the unconditional alignment of particles in a fluid,'' Emergent Macroscopic Phenomena in Non-equilibrium Statistical Mechanics, GSSI, L'Aquila, Italy, May 2025.
+  \item ``A new model of collective dynamics with adaptive communication strength,'' KinMAT Workshop, University of Warsaw, June 2024.
+  \item ``Proof techniques for alignment and flocking,'' IDEAL Seminar (online), March 2024.
+\end{itemize}
+
+\subsection*{Research Presentations to Funders}
+\begin{itemize}
+  \item ``FLOWERS: A warp drive for neural PDE solvers,'' Oxy Annual Project Review Meeting, Houston, Texas, May 19, 2026.
+  \item ``Interacting particle systems in machine learning and inference,'' TGS/GMIG Annual Project Review Workshop, Rice University, Houston, Texas, September 16, 2025.
+\end{itemize}
+
+\subsection*{Poster Sessions}
+\begin{itemize}
+  \item ``The s-model and the unconditional alignment of particles in a fluid,'' Workshop on Kinetic Theory and Fluids, UW--Madison, March 2025.
+  \item ``The s-model and the unconditional alignment of particles in a fluid,'' Emergent Behavior in Complex Systems, IMSI, Chicago, March 2025.
+\end{itemize}
+
+\subsection*{Departmental Seminars}
+\begin{itemize}
+  \item ``Long-time behavior and multi-scale description of models of collective dynamics,'' Ph.D. Defense, UIC, April 2025.
+  \item ``A new model of collective dynamics with adaptive strength,'' Analysis and Applied Math Seminar, UIC, February 2024.
+\end{itemize}
+
+\section*{Awards}
+\begin{itemize}
+  \item Victor Twersky Memorial Award, University of Illinois Chicago, 2024.
+  \item Award for Graduate Research, University of Illinois Chicago, 2024.
+  \item Travel Award, University of Illinois Chicago, 2024.
+\end{itemize}
+
+\section*{Workshops and Summer Schools}
+\begin{itemize}
+  \item Emergent Macroscopic Phenomena, GSSI, Italy, May 2025.
+  \item Workshop on Kinetic Theory and Fluids, UW--Madison, March 2025.
+  \item Emergent Behavior in Complex Systems, IMSI, Chicago, March 2025.
+  \item Winter School: Boundary and Singularity in Fluid Mechanics, Stony Brook, January 2025.
+  \item KinMAT Workshop, University of Warsaw, June 2024.
+  \item Summer School: Fluid Dynamics, UMD, July 2023; Summer School: PDEs, Duke, August 2022.
+\end{itemize}
+
+\section*{Teaching}
+\textbf{University of Illinois Chicago.} Teaching Assistant for Calculus I--III, Differential Equations, and Linear Algebra. Led discussion sections, mini-lectures, and office hours.
+
+\section*{Professional Experience}
+\entry{Rampart Communications, Linthicum, MD}{Summer Doctoral Intern, Jun--Aug 2024}
+Developed and implemented polar-coded modulation schemes.
+
+\entry{Argonne National Laboratory, Lemont, IL}{NSF Summer Intern, Jun--Aug 2021}
+Developed algorithms for mixed-integer PDE-constrained optimization.
+
+\textbf{National Institutes of Health, Bethesda, MD}\\
+Undergraduate Researcher and Software Engineer, Jan 2018--Jul 2020.\\
+Built finite-element models of brain tumor growth using MRI and DTI data.
+
+\vfill
+\begin{center}
+  References available upon request.\\
+  \small Updated October 2026
+\end{center}
+
+\end{document}

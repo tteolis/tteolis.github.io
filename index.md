@@ -44,19 +44,24 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 ### Manuscripts in Preparation
 
-- **T. Teolis and M. V. de Hoop.**  
-  <em>Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation.</em>
+- **T. Teolis, S. D. Mis, and M. V. de Hoop.**<br>
+  <em>Hybrid Markov Kernel Networks for Operator Learning: Applications to Helmholtz Equations.</em>
 
-- **T. Teolis and M. V. de Hoop.**<br>
-  <em>Uniform-in-Time Propagation of Chaos for Target-Weighted Riesz SVGD: A Diagonal Particle–Kernel Limit.</em>
-
-- **T. Teolis and M. V. de Hoop.**<br>
-  <em>Uniform-in-Time Propagation of Chaos for Target-Adapted Bessel SVGD.</em>
+- **T. Teolis, A. Siahkoohi, and M. V. de Hoop.**<br>
+  <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
 
 - **T. Teolis, S. D. Mis, and M. V. de Hoop.**  
   <em>FLOWERS for fast 3D Helmholtz forward modeling with applications to full-waveform inversion.</em>
 
 ### Preprints
+
+- **T. Teolis and M. V. de Hoop.**<br>
+  <em>In-context Maps as a Collision Operator: Stochastic Jump Transformer.</em><br>
+  Preprint, 2026.
+
+- **T. Teolis and M. V. de Hoop.**<br>
+  <em><a href="https://arxiv.org/abs/2609.08122" target="_blank" rel="noopener noreferrer">Target-adapted Green-Bessel SVGD: uniform-in-time propagation of chaos and last-iterate consistency.</a></em><br>
+  arXiv:2609.08122, 2026.
 
 - **S. Li, T. J. Maranzatto, J. Peszek, T. Teolis, S. Akkoc, K. Riedl, S. Ulukus, and N. García Trillos.**<br>
   <em><a href="https://arxiv.org/abs/2607.18584" target="_blank">On the Diverse Dynamical Behaviors Arising in Deep Linear Transformers.</a></em><br>
@@ -109,4 +114,4 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 ---
 
-> _Last updated: July 2026_
+> _Last updated: October 2026_
