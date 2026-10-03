@@ -44,16 +44,14 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 ### Manuscripts in Preparation
 
-- **T. Teolis, S. D. Mis, and M. V. de Hoop.**<br>
-  <em>Hybrid Markov Kernel Networks for Operator Learning: Applications to Helmholtz Equations.</em>
-
 - **T. Teolis, A. Siahkoohi, and M. V. de Hoop.**<br>
   <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
 
-- **T. Teolis, S. D. Mis, and M. V. de Hoop.**  
-  <em>FLOWERS for fast 3D Helmholtz forward modeling with applications to full-waveform inversion.</em>
-
 ### Preprints
+
+- **T. Teolis, S. D. Mis, and M. V. de Hoop.**<br>
+  <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em><br>
+  Preprint, 2026.
 
 - **T. Teolis and M. V. de Hoop.**<br>
   <em>In-context Maps as a Collision Operator: Stochastic Jump Transformer.</em><br>
