@@ -44,6 +44,9 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 ### Manuscripts in Preparation
 
+- **T. Teolis, S. D. Mis, and M. V. de Hoop.**<br>
+  <em>Hybrid Markov kernel networks: applications to wave modeling.</em>
+
 - **T. Teolis, A. Siahkoohi, and M. V. de Hoop.**<br>
   <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
 

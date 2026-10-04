@@ -22,6 +22,10 @@ description: "Publications and preprints by Trevor Teolis in machine learning, k
 - **R. Shvydkoy, T. Teolis.** <em>Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength.</em> <strong>Abel Symposium</strong>, 2024.
 - **P. Nandori, T. Teolis.** <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em> <strong>Nonlinearity</strong>, 2021.
 
+## Manuscripts in Preparation
+- **T. Teolis, S. D. Mis, and M. V. de Hoop.** <em>Hybrid Markov kernel networks: applications to wave modeling.</em>
+- **T. Teolis, A. Siahkoohi, and M. V. de Hoop.** <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
+
 ## Preprints / Under Review
 - **S. D. Mis, T. Teolis, I. Dokmanić, M. Lassas, and M. V. de Hoop.** <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em> Preprint (2026).
 - **T. Teolis and M. V. de Hoop.** <em>In-context Maps as a Collision Operator: Stochastic Jump Transformer.</em> Preprint (2026).
