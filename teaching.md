@@ -9,7 +9,6 @@ description: "Teaching experience of Trevor Teolis at Rice University and the Un
   <a href="/">Home</a> ·
   <a href="/research">Research</a> ·
   <a href="/publications">Publications</a> ·
-  <a href="/talks">Talks</a> ·
   <a href="/teaching">Teaching</a> ·
   <a href="/assets/cv.pdf">CV (PDF)</a>
 </p>

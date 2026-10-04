@@ -1,27 +1,18 @@
 ---
-title: "Talks"
-layout: default
+layout: null
 permalink: /talks
-description: "Invited and contributed talks by Trevor Teolis on kinetic equations, SVGD, machine learning, interacting particle systems, and collective dynamics."
+sitemap: false
 ---
-
-<p style="margin-top:0.5rem">
-  <a href="/">Home</a> ·
-  <a href="/research">Research</a> ·
-  <a href="/publications">Publications</a> ·
-  <a href="/talks">Talks</a> ·
-  <a href="/teaching">Teaching</a> ·
-  <a href="/assets/cv.pdf">CV (PDF)</a>
-</p>
-<hr/>
-
-# Talks
-
-## Invited Talks 
-- “Unconditional alignment of a Fokker–Planck–Navier–Stokes system of interacting particles.” <em>Models of emergence and collective dynamics</em>, 15th AIMS Conference, Athens, Greece, July 6–10, 2026.
-- “Exponential convergence for second-order SVGD.” <em>Measure Flows for Inverse Problems and Machine Learning</em>, SIAM UQ, Minneapolis, Mar 22–25, 2026.
-
-## Contributed Talks (Selected)
-- “Interacting particle systems in machine learning and inference.” GMIG annual meeting, Rice University, Sept 2025.
-- “The s-model and the unconditional alignment of particles in a fluid.” Emergent Macroscopic Phenomena in Non-equilibrium Statistical Mechanics, GSSI, L’Aquila, May 2025.
-- “A new model of collective dynamics with adaptive communication strength.” KinMAT Workshop, University of Warsaw, Poland, June 2024.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url=/#talks">
+  <link rel="canonical" href="{{ site.url }}/#talks">
+  <title>Talks | Trevor Teolis</title>
+</head>
+<body>
+  <p>Talks are listed on the <a href="/#talks">homepage</a>.</p>
+</body>
+</html>
