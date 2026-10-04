@@ -49,7 +49,7 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 ### Preprints
 
-- **T. Teolis, S. D. Mis, and M. V. de Hoop.**<br>
+- **S. D. Mis, T. Teolis, I. Dokmanić, M. Lassas, and M. V. de Hoop.**<br>
   <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em><br>
   Preprint, 2026.
 

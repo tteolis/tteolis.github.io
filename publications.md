@@ -23,7 +23,7 @@ description: "Publications and preprints by Trevor Teolis in machine learning, k
 - **P. Nandori, T. Teolis.** <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em> <strong>Nonlinearity</strong>, 2021.
 
 ## Preprints / Under Review
-- **T. Teolis, S. D. Mis, and M. V. de Hoop.** <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em> Preprint (2026).
+- **S. D. Mis, T. Teolis, I. Dokmanić, M. Lassas, and M. V. de Hoop.** <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em> Preprint (2026).
 - **T. Teolis and M. V. de Hoop.** <em>In-context Maps as a Collision Operator: Stochastic Jump Transformer.</em> Preprint (2026).
 - **T. Teolis and M. V. de Hoop.** <em><a href="https://arxiv.org/abs/2609.08122" target="_blank" rel="noopener noreferrer">Target-adapted Green-Bessel SVGD: uniform-in-time propagation of chaos and last-iterate consistency.</a></em> arXiv:2609.08122 (2026).
 - **S. Li, T. J. Maranzatto, J. Peszek, T. Teolis, S. Akkoc, K. Riedl, S. Ulukus, and N. García Trillos.** <em><a href="https://arxiv.org/abs/2607.18584" target="_blank" rel="noopener noreferrer">On the Diverse Dynamical Behaviors Arising in Deep Linear Transformers.</a></em> arXiv:2607.18584 (2026).
