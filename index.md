@@ -47,7 +47,7 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 <section id="publications"></section>
 
-## Publications by Research Direction
+## Publications
 
 ### Stein Variational Dynamics & Sampling Flows
 
@@ -60,6 +60,12 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 - **T. Teolis and M. V. de Hoop.** <em>In-context Maps as a Collision Operator: Stochastic Jump Transformer.</em> Preprint, 2026.
 - **S. Li, T. J. Maranzatto, J. Peszek, T. Teolis, S. Akkoc, K. Riedl, S. Ulukus, and N. García Trillos.** <em><a href="https://arxiv.org/abs/2607.18584" target="_blank" rel="noopener noreferrer">On the Diverse Dynamical Behaviors Arising in Deep Linear Transformers.</a></em> Preprint, 2026.
 
+### Operator Learning & Neural Surrogates for Wave Propagation
+
+- **S. D. Mis, T. Teolis, I. Dokmanić, M. Lassas, and M. V. de Hoop.** <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em> Preprint, 2026.
+- **A. Balaji, T. Teolis, S. D. Mis, J. A. Lara Benitez, C. Wang, and M. V. de Hoop.** <em><a href="https://arxiv.org/abs/2602.11197" target="_blank" rel="noopener noreferrer">Hybrid operator learning of wave scattering maps in high-contrast media.</a></em> Preprint, 2026.
+- **T. Teolis, S. D. Mis, and M. V. de Hoop.** <em>Hybrid Markov kernel networks: applications to wave modeling.</em> Manuscript in preparation.
+
 ### Kinetic & Hydrodynamic Limits of Collective Dynamics
 
 - **R. Shvydkoy and T. Teolis.** <em><a href="https://arxiv.org/abs/2409.02409" target="_blank" rel="noopener noreferrer">Microscopic, mesoscopic, and macroscopic descriptions of the Euler Alignment System with adaptive communication strength.</a></em> Discrete and Continuous Dynamical Systems, 2025.
@@ -67,12 +73,6 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 - **R. Shvydkoy and T. Teolis.** <em><a href="https://arxiv.org/abs/2508.07415" target="_blank" rel="noopener noreferrer">Unconditional alignment of solutions to the Fokker-Planck-Navier-Stokes system with locally averaged Brinkman force.</a></em> Preprint, 2025.
 - **A. Chertock, R. Shvydkoy, and T. Teolis.** <em><a href="https://arxiv.org/abs/2508.05478" target="_blank" rel="noopener noreferrer">Modulation of the monokinetic limit for models of collective dynamics.</a></em> Preprint, 2025.
 - **P. Nandori and T. Teolis.** <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em> Nonlinearity, 2021.
-
-### Operator Learning & Neural Surrogates for Wave Propagation
-
-- **S. D. Mis, T. Teolis, I. Dokmanić, M. Lassas, and M. V. de Hoop.** <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em> Preprint, 2026.
-- **A. Balaji, T. Teolis, S. D. Mis, J. A. Lara Benitez, C. Wang, and M. V. de Hoop.** <em><a href="https://arxiv.org/abs/2602.11197" target="_blank" rel="noopener noreferrer">Hybrid operator learning of wave scattering maps in high-contrast media.</a></em> Preprint, 2026.
-- **T. Teolis, S. D. Mis, and M. V. de Hoop.** <em>Hybrid Markov kernel networks: applications to wave modeling.</em> Manuscript in preparation.
 
 ---
 
