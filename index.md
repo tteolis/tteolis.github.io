@@ -25,11 +25,6 @@ On the computational side, I develop neural surrogate models for wave propagatio
 
 I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and established rigorous limits from microscopic particle dynamics to kinetic and macroscopic fluid equations.
 
-<figure class="research-figure">
-  <img src="/assets/stochastic-jump-transformer.png" alt="Diagram of an attention block coupled to a stochastic jump block in a stochastic jump transformer" width="1142" height="492">
-  <figcaption>A stochastic jump transformer.</figcaption>
-</figure>
-
 ## Selected Invited Talks
 
 - “Approximating Boltzmann solution maps by averaged measure-theoretic transformers.”<br>
