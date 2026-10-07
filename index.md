@@ -72,7 +72,7 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 - **R. Shvydkoy and T. Teolis.** <em><a href="https://arxiv.org/abs/2310.00269" target="_blank" rel="noopener noreferrer">Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength.</a></em> Abel Symposium Proceedings, 2024.
 - **R. Shvydkoy and T. Teolis.** <em><a href="https://arxiv.org/abs/2508.07415" target="_blank" rel="noopener noreferrer">Unconditional alignment of solutions to the Fokker-Planck-Navier-Stokes system with locally averaged Brinkman force.</a></em> Preprint, 2025.
 - **A. Chertock, R. Shvydkoy, and T. Teolis.** <em><a href="https://arxiv.org/abs/2508.05478" target="_blank" rel="noopener noreferrer">Modulation of the monokinetic limit for models of collective dynamics.</a></em> Preprint, 2025.
-- **P. Nandori and T. Teolis.** <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em> Nonlinearity, 2021.
+- **P. Nandori and T. Teolis.** <em><a href="https://iopscience.iop.org/article/10.1088/1361-6544/ac1163" target="_blank" rel="noopener noreferrer">Local Equilibrium of Particle Density in Planar Lorentz Processes.</a></em> Nonlinearity, 2021.
 
 ---
 
