@@ -25,6 +25,17 @@ On the computational side, I develop neural surrogate models for wave propagatio
 
 I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and established rigorous limits from microscopic particle dynamics to kinetic and macroscopic fluid equations.
 
+## Upcoming Conferences
+
+- [Texas Colloquium on Distributed Learning (TL;DR 2026)](https://www.eventbrite.com/e/texas-colloquium-on-distributed-learning-tldr-2026-tickets-1988784960353)<br>
+  Rice University, Houston, Texas, October 8-9, 2026.
+
+- [SIAM Conference on Mathematics of Data Science (MDS26)](https://www.siam.org/conferences-events/siam-conferences/mds26/)<br>
+  Salt Lake City, Utah, November 16-20, 2026.
+
+- [Inverse Days 2026](https://fips.fi/inverse-days-2026/)<br>
+  University of Jyväskylä, Jyväskylä, Finland, December 14-17, 2026.
+
 ## Selected Invited Talks
 
 - “Approximating Boltzmann solution maps by averaged measure-theoretic transformers.”<br>
