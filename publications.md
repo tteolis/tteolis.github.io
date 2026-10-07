@@ -1,36 +1,18 @@
 ---
-title: Publications
-layout: default
+layout: null
 permalink: /publications
-description: "Publications and preprints by Trevor Teolis in machine learning, kinetic theory, interacting particle systems, collective dynamics, and scientific computing."
+sitemap: false
 ---
-
-<p style="margin-top:0.5rem">
-  <a href="/">Home</a> ·
-  <a href="/research">Research</a> ·
-  <a href="/publications">Publications</a> ·
-  <a href="/teaching">Teaching</a> ·
-  <a href="/assets/cv.pdf">CV (PDF)</a>
-</p>
-<hr/>
-
-# Publications
-
-## Published
-- **R. Shvydkoy, T. Teolis.** <em>Microscopic, mesoscopic, and macroscopic descriptions of the Euler Alignment System with adaptive communication strength.</em> <strong>Discrete and Continuous Dynamical Systems</strong>, 2025.
-- **R. Shvydkoy, T. Teolis.** <em>Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength.</em> <strong>Abel Symposium</strong>, 2024.
-- **P. Nandori, T. Teolis.** <em>Local Equilibrium of Particle Density in Planar Lorentz Processes.</em> <strong>Nonlinearity</strong>, 2021.
-
-## Manuscripts in Preparation
-- **T. Teolis, S. D. Mis, and M. V. de Hoop.** <em>Hybrid Markov kernel networks: applications to wave modeling.</em>
-- **T. Teolis, A. Siahkoohi, and M. V. de Hoop.** <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
-
-## Preprints / Under Review
-- **S. D. Mis, T. Teolis, I. Dokmanić, M. Lassas, and M. V. de Hoop.** <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em> Preprint (2026).
-- **T. Teolis and M. V. de Hoop.** <em>In-context Maps as a Collision Operator: Stochastic Jump Transformer.</em> Preprint (2026).
-- **T. Teolis and M. V. de Hoop.** <em><a href="https://arxiv.org/abs/2609.08122" target="_blank" rel="noopener noreferrer">Target-adapted Green-Bessel SVGD: uniform-in-time propagation of chaos and last-iterate consistency.</a></em> arXiv:2609.08122 (2026).
-- **S. Li, T. J. Maranzatto, J. Peszek, T. Teolis, S. Akkoc, K. Riedl, S. Ulukus, and N. García Trillos.** <em><a href="https://arxiv.org/abs/2607.18584" target="_blank" rel="noopener noreferrer">On the Diverse Dynamical Behaviors Arising in Deep Linear Transformers.</a></em> arXiv:2607.18584 (2026).
-- **T. Teolis and M. V. de Hoop.** <em><a href="https://arxiv.org/abs/2607.14527" target="_blank" rel="noopener noreferrer">Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits.</a></em> arXiv:2607.14527 (2026).
-- **A. Balaji, T. Teolis, S. D. Mis, J. A. Lara Benitez, C. Wang, and M. V. de Hoop.** <em><a href="https://arxiv.org/abs/2602.11197" target="_blank" rel="noopener noreferrer">Hybrid operator learning of wave scattering maps in high-contrast media.</a></em> arXiv:2602.11197 (2026).
-- **R. Shvydkoy and T. Teolis.** <em><a href="https://arxiv.org/abs/2508.07415" target="_blank" rel="noopener noreferrer">Long-time behavior of the Fokker–Planck–Navier–Stokes Alignment System.</a></em> arXiv:2508.07415 (2025).
-- **A. Chertock, R. Shvydkoy, and T. Teolis.** <em><a href="https://arxiv.org/abs/2508.05478" target="_blank" rel="noopener noreferrer">Modulation of the monokinetic limit for models of collective dynamics.</a></em> arXiv:2508.05478 (2025).
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url=/#publications">
+  <link rel="canonical" href="{{ site.url }}/#publications">
+  <title>Publications | Trevor Teolis</title>
+</head>
+<body>
+  <p>Publications are organized by field on the <a href="/#publications">homepage</a>.</p>
+</body>
+</html>

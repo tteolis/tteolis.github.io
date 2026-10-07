@@ -1,26 +1,18 @@
 ---
-title: "Teaching"
-layout: default
+layout: null
 permalink: /teaching
-description: "Teaching experience of Trevor Teolis at Rice University and the University of Illinois Chicago in numerical analysis, deep learning theory, calculus, differential equations, and linear algebra."
+sitemap: false
 ---
-
-<p style="margin-top:0.5rem">
-  <a href="/">Home</a> ·
-  <a href="/research">Research</a> ·
-  <a href="/publications">Publications</a> ·
-  <a href="/teaching">Teaching</a> ·
-  <a href="/assets/cv.pdf">CV (PDF)</a>
-</p>
-<hr/>
-
-# Teaching
-
-## Rice University
-
-- **CMOR 422/522: Numerical Analysis**, Co-Instructor, Fall 2026.
-- **CMOR 677: Mathematical Theory of Deep Learning**, Co-Instructor, Spring 2026.
-
-## University of Illinois Chicago
-
-Graduate Teaching Assistant, 2020–2025: Calculus I–III, Differential Equations, and Linear Algebra. Led discussion sections, mini-lectures, and office hours.
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0; url=/#teaching">
+  <link rel="canonical" href="{{ site.url }}/#teaching">
+  <title>Teaching | Trevor Teolis</title>
+</head>
+<body>
+  <p>Teaching is listed on the <a href="/#teaching">homepage</a>.</p>
+</body>
+</html>
