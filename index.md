@@ -11,15 +11,11 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 
 ## Research Overview
 
-My research develops mathematical and computational approaches to learning the evolution of physical systems, with a focus on particle, kinetic, and fluid models.
+My research interests began with interacting particle systems, which I studied during my PhD. Around 2023, I became interested in machine learning through the study of transformer token dynamics and particle-based sampling methods (and also because LLMs are crazy cool). Much of my current work can be understood through Bayesian inverse problems, which involve two central questions: how do we model the evolution of a physical system, and how do we infer its unknown parameters from observations?
 
-My current theoretical work, joint with Maarten de Hoop, studies the approximation of Boltzmann-type kinetic equations by machine-learning architectures. A central idea is to represent Boltzmann dynamics through stochastic in-context maps, inspired by Nanbu particle systems and jump-process formulations. Since kinetic equations such as Boltzmann provide a phase-space description underlying fluid models, this project can also be viewed as part of a broader effort to understand foundation models for fluid and continuum dynamics. The analytical goal is to show that averages of measure-theoretic transformer maps approximate the Boltzmann solution operator in Wasserstein-type metrics.
+On the forward side, I study neural operators for kinetic, fluid, and wave dynamics. We introduced the stochastic jump transformer, an architecture designed to capture stochastic pairwise interactions such as physical collisions. We are also developing Markov Kernel Networks, a common framework for architectures including vision transformers, Fourier neural operators, and Flowers, which allows us to combine their different interaction mechanisms. We are currently training these hybrid models at scale on acoustic wave datasets.
 
-In sampling and inference, my recent work develops SVGD for singular kernels, proving finite-particle convergence and long-time sampling results for renormalized Riesz-kernel dynamics.
-
-Separately, I am part of a larger collaborative project on transformer dynamics, studying the long-time behavior of self-attention through interacting-particle models.
-
-On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, collective dynamics, and fluid mechanics.
+On the inverse side, I am developing particle-based methods for sampling posterior distributions. A question that particularly interests me is whether these methods can be proved to converge to their target distributions as the number of particles tends to infinity. Our recent work on preconditioned Stein variational gradient descent (SVGD) constructs a finite-particle Lyapunov functional, providing rigorous long-time convergence results.
 
 ## Background
 
