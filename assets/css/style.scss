@@ -28,6 +28,18 @@ body {
   background-color: #edf1ee;
 }
 
+@media screen and (min-width: 961px) {
+  body {
+    background: linear-gradient(
+      to right,
+      #e3e9e5 0,
+      #e3e9e5 calc(50% - 240px),
+      #edf1ee calc(50% - 240px),
+      #edf1ee 100%
+    );
+  }
+}
+
 header img {
   box-sizing: border-box;
   border: 2px solid #c7d0ca;
