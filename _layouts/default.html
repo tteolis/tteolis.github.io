@@ -30,8 +30,12 @@
       header {
         position: fixed;
         top: 40px;
+        bottom: 40px;
         left: 48px;
         width: 220px;
+        overflow-y: auto;
+        overscroll-behavior: contain;
+        scrollbar-gutter: stable;
         float: none;
         text-align: center;
       }
@@ -119,6 +123,7 @@
         header {
           position: static;
           width: auto;
+          overflow-y: visible;
           margin-bottom: 2rem;
         }
 
