@@ -18,8 +18,9 @@
 
     <style>
       .wrapper {
-        width: 1120px;
-        margin: 0 auto;
+        width: calc(100% - 96px);
+        max-width: 1200px;
+        margin: 0 0 0 48px;
         display: grid;
         grid-template-columns: 220px minmax(0, 1fr);
         gap: 40px;
@@ -29,7 +30,7 @@
       header {
         position: fixed;
         top: 40px;
-        left: calc(50% - 560px);
+        left: 48px;
         width: 220px;
         float: none;
         text-align: center;
