@@ -25,7 +25,12 @@ header p.view {
 }
 
 body {
-  background-color: #f5f7f6;
+  background-color: #edf1ee;
+}
+
+header img {
+  box-sizing: border-box;
+  border: 2px solid #c7d0ca;
 }
 
 header {
