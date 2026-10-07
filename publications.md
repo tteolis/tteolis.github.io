@@ -3,6 +3,7 @@ layout: default
 title: Publications/Preprints
 permalink: /publications/
 description: "Publications, preprints, and manuscripts by Trevor Teolis, organized by research direction."
+page_class: publications-page
 ---
 
 # Publications/Preprints

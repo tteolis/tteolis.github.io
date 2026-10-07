@@ -213,7 +213,7 @@
         </nav>
       </header>
 
-      <main id="main-content">
+      <main id="main-content"{% if page.page_class %} class="{{ page.page_class }}"{% endif %}>
         <nav class="top-nav" aria-label="Page navigation">
           {% for item in site.nav_links %}
             {% assign item_url = item.url | relative_url %}
