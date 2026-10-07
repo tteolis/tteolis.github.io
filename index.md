@@ -26,6 +26,9 @@ My research develops mathematical foundations for machine learning and kinetic e
 
 Machine learning for physical simulation; kinetic and fluid equations; interacting particle systems; foundation models for physics; mathematical theory of transformers; neural surrogate models for wave propagation and inverse problems.
 
+## Background
+I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and established rigorous limits from microscopic particle dynamics to kinetic and macroscopic fluid equations.
+
 <section id="research"></section>
 
 ## Research Overview
@@ -40,8 +43,10 @@ Separately, I am part of a larger collaborative project on transformer dynamics,
 
 On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, collective dynamics, and fluid mechanics.
 
-## Background
-I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and established rigorous limits from microscopic particle dynamics to kinetic and macroscopic fluid equations.
+Manuscripts in preparation:
+
+1. T. Teolis, S. D. Mis, and M. V. de Hoop. <em>Hybrid Markov kernel networks: applications to wave modeling.</em>
+2. T. Teolis, A. Siahkoohi, and M. V. de Hoop. <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
 
 ---
 
@@ -53,7 +58,6 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 - **T. Teolis and M. V. de Hoop.** <em><a href="https://arxiv.org/abs/2609.08122" target="_blank" rel="noopener noreferrer">Target-adapted Green-Bessel SVGD: uniform-in-time propagation of chaos and last-iterate consistency.</a></em> Preprint, 2026.
 - **T. Teolis and M. V. de Hoop.** <em><a href="https://arxiv.org/abs/2607.14527" target="_blank" rel="noopener noreferrer">Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits.</a></em> Preprint, 2026.
-- **T. Teolis, A. Siahkoohi, and M. V. de Hoop.** <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em> Manuscript in preparation.
 
 ### Kinetic Foundations of Transformers
 
@@ -64,7 +68,6 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 
 - **S. D. Mis, T. Teolis, I. Dokmanić, M. Lassas, and M. V. de Hoop.** <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em> Preprint, 2026.
 - **A. Balaji, T. Teolis, S. D. Mis, J. A. Lara Benitez, C. Wang, and M. V. de Hoop.** <em><a href="https://arxiv.org/abs/2602.11197" target="_blank" rel="noopener noreferrer">Hybrid operator learning of wave scattering maps in high-contrast media.</a></em> Preprint, 2026.
-- **T. Teolis, S. D. Mis, and M. V. de Hoop.** <em>Hybrid Markov kernel networks: applications to wave modeling.</em> Manuscript in preparation.
 
 ### Kinetic & Hydrodynamic Limits of Collective Dynamics
 
