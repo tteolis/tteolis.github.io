@@ -40,9 +40,38 @@ header {
   scrollbar-width: thin;
 }
 
+.page-section {
+  margin: 0 -28px;
+  padding: 44px 28px;
+  scroll-margin-top: 20px;
+}
+
+.page-section:first-child {
+  padding-top: 0;
+}
+
+.page-section--light {
+  background-color: #f8faf8;
+}
+
+.page-section > :first-child {
+  margin-top: 0;
+}
+
+.page-section > :last-child {
+  margin-bottom: 0;
+}
+
 @media print, screen and (max-width: 960px) {
   header {
     max-height: none;
     overflow: visible;
+  }
+
+  .page-section {
+    margin-right: -25px;
+    margin-left: -25px;
+    padding-right: 25px;
+    padding-left: 25px;
   }
 }
