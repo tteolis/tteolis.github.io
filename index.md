@@ -16,18 +16,9 @@ description: "Trevor Teolis is a postdoctoral researcher at Rice University work
 
 # Trevor Teolis
 
-**Postdoctoral Researcher**, Rice University  
-Department of Computational and Applied Mathematics & Operations Research (CMOR)  
+Postdoctoral Researcher, Rice University<br>
+Department of Computational and Applied Mathematics & Operations Research (CMOR)<br>
 Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
-
-My research develops mathematical foundations for machine learning and kinetic equations, alongside neural surrogate models for physical simulation.
-
-## Research Interests
-
-Machine learning for physical simulation; kinetic and fluid equations; interacting particle systems; foundation models for physics; mathematical theory of transformers; neural surrogate models for wave propagation and inverse problems.
-
-## Background
-I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and established rigorous limits from microscopic particle dynamics to kinetic and macroscopic fluid equations.
 
 <section id="research"></section>
 
@@ -47,6 +38,10 @@ Manuscripts in preparation:
 
 1. **T. Teolis**, S. D. Mis, and M. V. de Hoop. <em>Hybrid Markov kernel networks: applications to wave modeling.</em>
 2. **T. Teolis**, A. Siahkoohi, and M. V. de Hoop. <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
+
+## Background
+
+I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and established rigorous limits from microscopic particle dynamics to kinetic and macroscopic fluid equations.
 
 ---
 
@@ -85,8 +80,8 @@ Manuscripts in preparation:
 
 ### Rice University
 
-- **CMOR 422/522: Numerical Analysis**, Co-Instructor, Fall 2026.
-- **CMOR 677: Mathematical Theory of Deep Learning**, Co-Instructor, Spring 2026.
+- CMOR 422/522: Numerical Analysis, Co-Instructor, Fall 2026.
+- CMOR 677: Mathematical Theory of Deep Learning, Co-Instructor, Spring 2026.
 
 ### University of Illinois Chicago
 

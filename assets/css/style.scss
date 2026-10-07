@@ -33,11 +33,17 @@ body {
     background: linear-gradient(
       to right,
       #e3e9e5 0,
-      #e3e9e5 calc(50% - 240px),
-      #edf1ee calc(50% - 240px),
+      #e3e9e5 calc(50% - 210px),
+      #edf1ee calc(50% - 210px),
       #edf1ee 100%
     );
   }
+}
+
+main h1,
+main h2,
+main h3 {
+  font-weight: 400;
 }
 
 header img {
