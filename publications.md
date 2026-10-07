@@ -10,9 +10,9 @@ sitemap: false
   <meta name="robots" content="noindex">
   <meta http-equiv="refresh" content="0; url=/#publications">
   <link rel="canonical" href="{{ site.url }}/#publications">
-  <title>Publications | Trevor Teolis</title>
+  <title>Publications/Preprints | Trevor Teolis</title>
 </head>
 <body>
-  <p>Publications are organized by field on the <a href="/#publications">homepage</a>.</p>
+  <p>Publications and preprints are organized by field on the <a href="/#publications">homepage</a>.</p>
 </body>
 </html>

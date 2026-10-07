@@ -8,7 +8,7 @@ description: "Trevor Teolis is a postdoctoral researcher at Rice University work
 <p style="margin-top:0.5rem">
   <a href="/#top">Home</a> ·
   <a href="/#research">Research</a> ·
-  <a href="/#publications">Publications</a> ·
+  <a href="/#publications">Publications/Preprints</a> ·
   <a href="/#teaching">Teaching</a> ·
   <a href="/assets/cv.pdf">CV (PDF)</a>
 </p>
@@ -52,7 +52,7 @@ Manuscripts in preparation:
 
 <section id="publications"></section>
 
-## Publications
+## Publications/Preprints
 
 ### Stein Variational Dynamics & Sampling Flows
 
