@@ -7,11 +7,6 @@ description: "Publications, preprints, and manuscripts by Trevor Teolis, organiz
 
 # Publications/Preprints
 
-Manuscripts in preparation:
-
-1. T. Teolis, S. D. Mis, and M. V. de Hoop. <em>Hybrid Markov kernel networks: applications to wave modeling.</em>
-2. T. Teolis, A. Siahkoohi, and M. V. de Hoop. <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
-
 ## Stein Variational Dynamics and Sampling Flows
 
 - T. Teolis and M. V. de Hoop. <em><a href="https://arxiv.org/abs/2609.08122" target="_blank" rel="noopener noreferrer">Target-adapted Green-Bessel SVGD: uniform-in-time propagation of chaos and last-iterate consistency.</a></em> Preprint, 2026.
@@ -34,3 +29,8 @@ Manuscripts in preparation:
 - R. Shvydkoy and T. Teolis. <em><a href="https://arxiv.org/abs/2409.02409" target="_blank" rel="noopener noreferrer">Microscopic, mesoscopic, and macroscopic descriptions of the Euler Alignment System with adaptive communication strength.</a></em> Discrete and Continuous Dynamical Systems, 2025. (Authors alphabetical.)
 - R. Shvydkoy and T. Teolis. <em><a href="https://arxiv.org/abs/2310.00269" target="_blank" rel="noopener noreferrer">Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength.</a></em> Abel Symposium Proceedings, 2024. (Authors alphabetical.)
 - P. Nandori and T. Teolis. <em><a href="https://iopscience.iop.org/article/10.1088/1361-6544/ac1163" target="_blank" rel="noopener noreferrer">Local Equilibrium of Particle Density in Planar Lorentz Processes.</a></em> Nonlinearity, 2021. (Authors alphabetical.)
+
+# Manuscripts in Preparation
+
+1. T. Teolis, S. D. Mis, and M. V. de Hoop. <em>Hybrid Markov kernel networks: applications to wave modeling.</em>
+2. T. Teolis, A. Siahkoohi, and M. V. de Hoop. <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
