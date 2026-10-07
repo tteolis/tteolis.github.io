@@ -41,13 +41,13 @@ plugins:
 
 nav_links:
   - title: Home
-    url: /#top
+    url: /
   - title: Research
-    url: /#research
+    url: /research/
   - title: Publications/Preprints
-    url: /#publications
+    url: /publications/
   - title: Teaching
-    url: /#teaching
+    url: /teaching/
   - title: CV (PDF)
     url: /assets/cv.pdf
 

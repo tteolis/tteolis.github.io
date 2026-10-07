@@ -3,24 +3,11 @@ layout: default
 description: "Trevor Teolis is a postdoctoral researcher at Rice University working on mathematical machine learning, kinetic equations, interacting particles, and scientific computing."
 ---
 
-<div id="top"></div>
-
-<p style="margin-top:0.5rem">
-  <a href="/#top">Home</a> ·
-  <a href="/#research">Research</a> ·
-  <a href="/#publications">Publications/Preprints</a> ·
-  <a href="/#teaching">Teaching</a> ·
-  <a href="/assets/cv.pdf">CV (PDF)</a>
-</p>
-<hr/>
-
 # Trevor Teolis
 
 Postdoctoral Researcher, Rice University<br>
 Department of Computational and Applied Mathematics & Operations Research (CMOR)<br>
 Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
-
-<section id="research"></section>
 
 ## Research Overview
 
@@ -34,72 +21,24 @@ Separately, I am part of a larger collaborative project on transformer dynamics,
 
 On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems. Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, collective dynamics, and fluid mechanics.
 
-Manuscripts in preparation:
-
-1. **T. Teolis**, S. D. Mis, and M. V. de Hoop. <em>Hybrid Markov kernel networks: applications to wave modeling.</em>
-2. **T. Teolis**, A. Siahkoohi, and M. V. de Hoop. <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
-
 ## Background
 
 I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and established rigorous limits from microscopic particle dynamics to kinetic and macroscopic fluid equations.
 
----
-
-<section id="publications"></section>
-
-## Publications/Preprints
-
-### Stein Variational Dynamics & Sampling Flows
-
-- **T. Teolis** and M. V. de Hoop. <em><a href="https://arxiv.org/abs/2609.08122" target="_blank" rel="noopener noreferrer">Target-adapted Green-Bessel SVGD: uniform-in-time propagation of chaos and last-iterate consistency.</a></em> Preprint, 2026.
-- **T. Teolis** and M. V. de Hoop. <em><a href="https://arxiv.org/abs/2607.14527" target="_blank" rel="noopener noreferrer">Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits.</a></em> Preprint, 2026.
-
-### Kinetic Foundations of Transformers
-
-- **T. Teolis** and M. V. de Hoop. <em>In-context Maps as a Collision Operator: Stochastic Jump Transformer.</em> Preprint, 2026.
-- S. Li, T. J. Maranzatto, J. Peszek, **T. Teolis**, S. Akkoc, K. Riedl, S. Ulukus, and N. García Trillos. <em><a href="https://arxiv.org/abs/2607.18584" target="_blank" rel="noopener noreferrer">On the Diverse Dynamical Behaviors Arising in Deep Linear Transformers.</a></em> Preprint, 2026.
-
-### Operator Learning & Neural Surrogates for Wave Propagation
-
-- S. D. Mis, **T. Teolis**, I. Dokmanić, M. Lassas, and M. V. de Hoop. <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em> Preprint, 2026.
-- A. Balaji, **T. Teolis**, S. D. Mis, J. A. Lara Benitez, C. Wang, and M. V. de Hoop. <em><a href="https://arxiv.org/abs/2602.11197" target="_blank" rel="noopener noreferrer">Hybrid operator learning of wave scattering maps in high-contrast media.</a></em> Preprint, 2026.
-
-### Kinetic & Hydrodynamic Limits of Collective Dynamics
-
-- R. Shvydkoy and **T. Teolis**. <em><a href="https://arxiv.org/abs/2508.07415" target="_blank" rel="noopener noreferrer">Unconditional alignment of solutions to the Fokker-Planck-Navier-Stokes system with locally averaged Brinkman force.</a></em> Preprint, 2025.
-- A. Chertock, R. Shvydkoy, and **T. Teolis**. <em><a href="https://arxiv.org/abs/2508.05478" target="_blank" rel="noopener noreferrer">Modulation of the monokinetic limit for models of collective dynamics.</a></em> Preprint, 2025.
-- R. Shvydkoy and **T. Teolis**. <em><a href="https://arxiv.org/abs/2409.02409" target="_blank" rel="noopener noreferrer">Microscopic, mesoscopic, and macroscopic descriptions of the Euler Alignment System with adaptive communication strength.</a></em> Discrete and Continuous Dynamical Systems, 2025.
-- R. Shvydkoy and **T. Teolis**. <em><a href="https://arxiv.org/abs/2310.00269" target="_blank" rel="noopener noreferrer">Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength.</a></em> Abel Symposium Proceedings, 2024.
-- P. Nandori and **T. Teolis**. <em><a href="https://iopscience.iop.org/article/10.1088/1361-6544/ac1163" target="_blank" rel="noopener noreferrer">Local Equilibrium of Particle Density in Planar Lorentz Processes.</a></em> Nonlinearity, 2021.
-
----
-
-<section id="teaching"></section>
-
-## Teaching
-
-### Rice University
-
-- CMOR 422/522: Numerical Analysis, Co-Instructor, Fall 2026.
-- CMOR 677: Mathematical Theory of Deep Learning, Co-Instructor, Spring 2026.
-
-### University of Illinois Chicago
-
-Graduate Teaching Assistant, 2020–2025: Calculus I–III, Differential Equations, and Linear Algebra.
-
----
-
-<section id="talks"></section>
+<figure class="research-figure">
+  <img src="/assets/stochastic-jump-transformer.png" alt="Diagram of an attention block coupled to a stochastic jump block in a stochastic jump transformer" width="1142" height="492">
+  <figcaption>A stochastic jump transformer.</figcaption>
+</figure>
 
 ## Selected Invited Talks
 
-- “Approximating Boltzmann solution maps by averaged measure-theoretic transformers.”  
+- “Approximating Boltzmann solution maps by averaged measure-theoretic transformers.”<br>
   Minisymposium <em>Mathematical Foundations of Learning for Infinite-Dimensional Systems and PDEs</em>, SIAM Conference on Mathematics of Data Science, Salt Lake City, Utah, November 2026. Upcoming.
 
-- “Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation.”  
+- “Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation.”<br>
   <em>Models of Emergence and Collective Dynamics</em>, 15th AIMS Conference, Athens, Greece, July 2026.
 
-- “Nanbu particles as stochastic in-context maps for Boltzmann dynamics.”  
+- “Nanbu particles as stochastic in-context maps for Boltzmann dynamics.”<br>
   <em>Measure Flows for Inverse Problems and Machine Learning</em>, SIAM Conference on Uncertainty Quantification, Minneapolis, Minnesota, March 2026.
 
 ---
