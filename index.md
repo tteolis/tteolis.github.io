@@ -3,7 +3,7 @@ layout: default
 description: "Trevor Teolis is a postdoctoral researcher at Rice University working on mathematical machine learning, kinetic equations, interacting particles, and scientific computing."
 ---
 
-<section id="top" class="page-section" markdown="1">
+<div id="top"></div>
 
 <p style="margin-top:0.5rem">
   <a href="/#top">Home</a> ·
@@ -29,9 +29,7 @@ Machine learning for physical simulation; kinetic and fluid equations; interacti
 ## Background
 I received my Ph.D. in Mathematics from the University of Illinois Chicago, advised by Roman Shvydkoy. My doctoral work studied collective dynamics and interacting particle systems, including Cucker--Smale, Euler alignment, and Fokker--Planck--Navier--Stokes models, and established rigorous limits from microscopic particle dynamics to kinetic and macroscopic fluid equations.
 
-</section>
-
-<section id="research" class="page-section page-section--light" markdown="1">
+<section id="research"></section>
 
 ## Research Overview
 
@@ -50,9 +48,9 @@ Manuscripts in preparation:
 1. **T. Teolis**, S. D. Mis, and M. V. de Hoop. <em>Hybrid Markov kernel networks: applications to wave modeling.</em>
 2. **T. Teolis**, A. Siahkoohi, and M. V. de Hoop. <em>Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.</em>
 
-</section>
+---
 
-<section id="publications" class="page-section" markdown="1">
+<section id="publications"></section>
 
 ## Publications/Preprints
 
@@ -79,11 +77,11 @@ Manuscripts in preparation:
 - R. Shvydkoy and **T. Teolis**. <em><a href="https://arxiv.org/abs/2310.00269" target="_blank" rel="noopener noreferrer">Well-posedness and long-time behavior of the Euler Alignment System with adaptive communication strength.</a></em> Abel Symposium Proceedings, 2024.
 - P. Nandori and **T. Teolis**. <em><a href="https://iopscience.iop.org/article/10.1088/1361-6544/ac1163" target="_blank" rel="noopener noreferrer">Local Equilibrium of Particle Density in Planar Lorentz Processes.</a></em> Nonlinearity, 2021.
 
-</section>
+---
 
-<section id="teaching" class="page-section page-section--light" markdown="1">
+<section id="teaching"></section>
 
-## Teaching {#teaching-heading}
+## Teaching
 
 ### Rice University
 
@@ -94,9 +92,9 @@ Manuscripts in preparation:
 
 Graduate Teaching Assistant, 2020–2025: Calculus I–III, Differential Equations, and Linear Algebra.
 
-</section>
+---
 
-<section id="talks" class="page-section" markdown="1">
+<section id="talks"></section>
 
 ## Selected Invited Talks
 
@@ -112,5 +110,3 @@ Graduate Teaching Assistant, 2020–2025: Calculus I–III, Differential Equatio
 ---
 
 > _Last updated: October 2026_
-
-</section>
