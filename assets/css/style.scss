@@ -57,6 +57,13 @@ main h3 {
   line-height: 1.35;
 }
 
+main.publications-page li a:hover,
+main.publications-page li a:focus {
+  font-weight: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 header img {
   box-sizing: border-box;
   border: 2px solid #c7d0ca;
