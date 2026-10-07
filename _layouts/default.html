@@ -74,7 +74,7 @@
       }
 
       .sidebar-nav a.active {
-        font-weight: 400;
+        font-weight: 600;
       }
 
       .sidebar-links a {
@@ -112,6 +112,10 @@
 
       .top-nav a {
         text-decoration: none;
+      }
+
+      .top-nav a.active {
+        font-weight: 600;
       }
 
       @media print, screen and (max-width: 760px) {
@@ -217,7 +221,7 @@
         <nav class="top-nav" aria-label="Page navigation">
           {% for item in site.nav_links %}
             {% assign item_url = item.url | relative_url %}
-            <a href="{{ item_url }}">{{ item.title }}</a>
+            <a href="{{ item_url }}"{% if page.url == item.url %} class="active" aria-current="page"{% endif %}>{{ item.title }}</a>
           {% endfor %}
         </nav>
         {{ content }}
