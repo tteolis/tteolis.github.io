@@ -7,22 +7,22 @@ description: "Publications, preprints, and manuscripts by Trevor Teolis, organiz
 
 # Publications/Preprints
 
-## Stein Variational Dynamics and Sampling Flows
+### Stein Variational Dynamics and Sampling Flows
 
 - T. Teolis and M. V. de Hoop. <em><a href="https://arxiv.org/abs/2609.08122" target="_blank" rel="noopener noreferrer">Target-adapted Green-Bessel SVGD: uniform-in-time propagation of chaos and last-iterate consistency.</a></em> Preprint, 2026.
 - T. Teolis and M. V. de Hoop. <em><a href="https://arxiv.org/abs/2607.14527" target="_blank" rel="noopener noreferrer">Riesz-Kernel Stein Variational Gradient Descent: Renormalized Entropy and Long-Time Particle Limits.</a></em> Preprint, 2026.
 
-## Kinetic Foundations of Transformers
+### Kinetic Foundations of Transformers
 
 - T. Teolis and M. V. de Hoop. <em>In-context Maps as a Collision Operator: Stochastic Jump Transformer.</em> Preprint, 2026.
 - S. Li, T. J. Maranzatto, J. Peszek, T. Teolis, S. Akkoc, K. Riedl, S. Ulukus, and N. García Trillos. <em><a href="https://arxiv.org/abs/2607.18584" target="_blank" rel="noopener noreferrer">On the Diverse Dynamical Behaviors Arising in Deep Linear Transformers.</a></em> Preprint, 2026.
 
-## Operator Learning and Neural Surrogates for Wave Propagation
+### Operator Learning and Neural Surrogates for Wave Propagation
 
 - S. D. Mis, T. Teolis, I. Dokmanić, M. Lassas, and M. V. de Hoop. <em>All Roads Lead to Markov Kernel Networks: A Representation Theorem for Discretization-Stable Learning.</em> Preprint, 2026.
 - A. Balaji, T. Teolis, S. D. Mis, J. A. Lara Benitez, C. Wang, and M. V. de Hoop. <em><a href="https://arxiv.org/abs/2602.11197" target="_blank" rel="noopener noreferrer">Hybrid operator learning of wave scattering maps in high-contrast media.</a></em> Preprint, 2026.
 
-## Kinetic and Hydrodynamic Limits of Collective Dynamics
+### Kinetic and Hydrodynamic Limits of Collective Dynamics
 
 - R. Shvydkoy and T. Teolis. <em><a href="https://arxiv.org/abs/2508.07415" target="_blank" rel="noopener noreferrer">Unconditional alignment of solutions to the Fokker-Planck-Navier-Stokes system with locally averaged Brinkman force.</a></em> Preprint, 2025. (Authors alphabetical.)
 - A. Chertock, R. Shvydkoy, and T. Teolis. <em><a href="https://arxiv.org/abs/2508.05478" target="_blank" rel="noopener noreferrer">Modulation of the monokinetic limit for models of collective dynamics.</a></em> Preprint, 2025. (Authors alphabetical.)
