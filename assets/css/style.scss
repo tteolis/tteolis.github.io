@@ -27,3 +27,17 @@ header p.view {
 body {
   background-color: #f5f7f6;
 }
+
+header {
+  max-height: calc(100vh - 60px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+@media print, screen and (max-width: 960px) {
+  header {
+    max-height: none;
+    overflow: visible;
+  }
+}
