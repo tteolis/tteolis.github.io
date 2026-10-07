@@ -28,7 +28,7 @@ body {
   background-color: #edf1ee;
 }
 
-@media screen and (min-width: 1181px) {
+@media screen and (min-width: 761px) {
   body {
     background: linear-gradient(
       to right,
@@ -55,7 +55,7 @@ header {
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 1181px) and (max-height: 700px) {
+@media screen and (min-width: 761px) and (max-height: 700px) {
   header img {
     width: 130px;
     height: 130px;
@@ -100,7 +100,7 @@ header {
   text-align: center;
 }
 
-@media print, screen and (max-width: 1180px) {
+@media print, screen and (max-width: 760px) {
   .top-nav {
     justify-content: center;
   }
