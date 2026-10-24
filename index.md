@@ -61,7 +61,7 @@ I like to play tennis, soccer, and football (anything with running and a ball is
 
 <div class="about-photo-grid">
   <figure>
-    <div class="about-photo-frame"><img src="{{ '/assets/photos/northern-tanzania.jpg' | relative_url }}" alt="A giraffe beneath an orange sky in northern Tanzania." width="1200" height="1600" loading="lazy" decoding="async"></div>
+    <div class="about-photo-frame about-photo-frame--giraffe"><img src="{{ '/assets/photos/northern-tanzania.jpg' | relative_url }}" alt="A giraffe beneath an orange sky in northern Tanzania." width="1200" height="1600" loading="lazy" decoding="async"></div>
     <figcaption>northern Tanzania</figcaption>
   </figure>
   <figure>
