@@ -48,7 +48,7 @@
     const paths={};
     function axis(id,height,xDomain,yDomain,xLabel,yLabel,log=false,square=false,timeLog=false,timeConstant=1){
       const svg=d3.select(root.querySelector('#'+id)),w=svg.node().parentElement.clientWidth;
-      const h=square?w:height, m={left:76,right:18,top:12,bottom:48};
+      const h=square?Math.min(w,280):Math.min(height,180), m={left:w<180?34:w<320?50:64,right:10,top:10,bottom:w<180?32:42};
       svg.attr('viewBox',`0 0 ${w} ${h}`).attr('height',h); svg.selectAll('*').remove();
       let pw=Math.max(20,w-m.left-m.right),ph=Math.max(20,h-m.top-m.bottom);
       if(square){const size=Math.min(pw,ph);pw=ph=size;}
@@ -57,10 +57,11 @@
       svg.append('rect').attr('data-chart-frame','').attr('x',m.left).attr('y',m.top).attr('width',pw).attr('height',ph).attr('fill','none').attr('stroke',colors.rule);
       const bottom=d3.axisBottom(x).ticks(w<400?3:5).tickSizeOuter(0);
       if(timeLog)bottom.tickValues([...new Set([...(timeConstant<1?(w<400?[0,.1,10]:[0,.01,1,100]):(w<400?[0,10,100]:[0,1,10,100,1000])).filter(t=>t<xDomain[1]),xDomain[1]])]);
+      if(timeLog)bottom.tickFormat(t=>t===0?'0':d3.format('.3~g')(t));
       svg.append('g').attr('transform',`translate(0,${m.top+ph})`).call(bottom);
       const smallEnergy=!log&&d3.max(yDomain,v=>Math.abs(v))<.01;
-      svg.append('g').attr('transform',`translate(${m.left},0)`).call(log?d3.axisLeft(y).ticks(3,'.0e').tickSizeOuter(0):d3.axisLeft(y).ticks(4,smallEnergy?'.1e':null).tickSizeOuter(0));
-      svg.append('text').attr('class','axis-title').attr('data-axis','x').attr('x',m.left+pw/2).attr('y',m.top+ph+39).attr('text-anchor','middle').text(xLabel);
+      svg.append('g').attr('transform',`translate(${m.left},0)`).call(log?d3.axisLeft(y).ticks(3,'.0e').tickSizeOuter(0):d3.axisLeft(y).ticks(w<240?3:4,smallEnergy?'.1e':null).tickSizeOuter(0));
+      svg.append('text').attr('class','axis-title').attr('data-axis','x').attr('x',m.left+pw/2).attr('y',m.top+ph+m.bottom-10).attr('text-anchor','middle').text(xLabel);
       svg.append('text').attr('class','axis-title').attr('data-axis','y').attr('transform',`translate(15,${m.top+ph/2}) rotate(-90)`).attr('text-anchor','middle').text(yLabel);
       const clip='clip-'+id;
       svg.append('defs').append('clipPath').attr('id',clip).append('rect').attr('x',m.left).attr('y',m.top).attr('width',pw).attr('height',ph);

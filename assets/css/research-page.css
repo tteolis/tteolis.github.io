@@ -74,13 +74,23 @@
 @media (max-width:520px) { #research-content { padding:0; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
 
-/* Compact simulation groups while retaining full-size labels and controls. */
+/* Compact plots keep comparisons visible together. */
 #research-content .svgd-panels,
 #research-content .cs-panels,
-#research-content .eigen-panels,
-#research-content .plot-holder { width:100%; max-width:720px; }
-#research-content .fluid-simulation { width:100%; max-width:480px; margin:0; }
+#research-content .eigen-panels { width:100%; max-width:540px; gap:12px; }
+#research-content .cs-panels { grid-template-columns:repeat(2,minmax(0,1fr)); }
+#research-content .plot-holder { width:100%; max-width:640px; }
+#research-content .fluid-simulation { width:100%; max-width:320px; margin:0; }
 #research-content .controls,
 #research-content .experiment-settings,
-#research-content .legend { max-width:720px; }
-#research-content .controls[data-player="fluid"] { max-width:480px; }
+#research-content .legend { max-width:640px; }
+#research-content .controls { margin:8px 0; gap:8px; }
+#research-content .controls[data-player="fluid"] { max-width:420px; }
+#research-content figure,
+#research-content .figure-labels { max-width:600px; }
+#research-content svg.plot text { font-size:11px; }
+#research-content .panel h4 { margin:12px 0 4px; }
+#research-content section + section { margin-top:24px; padding-top:22px; }
+@media screen and (min-width:1100px) {
+  #research-content .sampler-grid { max-width:960px; grid-template-columns:repeat(4,minmax(0,1fr)); }
+}
