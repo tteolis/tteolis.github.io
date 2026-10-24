@@ -69,6 +69,29 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 - “Nanbu particles as stochastic in-context maps for Boltzmann dynamics.”<br>
   <em>Measure Flows for Inverse Problems and Machine Learning</em>, SIAM Conference on Uncertainty Quantification, Minneapolis, Minnesota, March 2026.
 
+## About Me
+
+I like to play tennis, soccer, and football (anything with running and a ball is pretty good). Occasionally, I [make music](https://soundcloud.com/trevor-teolis/sets) with guitar and piano. I tend to inhabit Houston, Milwaukee, Chicago, and D.C. Sometimes, I end up in other places.
+
+<div class="about-photo-grid">
+  <figure>
+    <div class="about-photo-frame"><img src="{{ '/assets/photos/northern-tanzania.jpg' | relative_url }}" alt="A giraffe beneath an orange sky in northern Tanzania." width="1200" height="1600" loading="lazy" decoding="async"></div>
+    <figcaption>northern Tanzania</figcaption>
+  </figure>
+  <figure>
+    <div class="about-photo-frame"><img src="{{ '/assets/photos/santuario-colombia.jpg' | relative_url }}" alt="Green hills and a finca in Santuario, Colombia." width="1600" height="1200" loading="lazy" decoding="async"></div>
+    <figcaption>a finca in Santuario, Colombia</figcaption>
+  </figure>
+  <figure>
+    <div class="about-photo-frame"><img src="{{ '/assets/photos/villa-santangelo-italy.jpg' | relative_url }}" alt="Fields and mountains near Villa Sant’Angelo, Italy." width="1600" height="1200" loading="lazy" decoding="async"></div>
+    <figcaption>Villa Sant’Angelo, Italy</figcaption>
+  </figure>
+  <figure>
+    <div class="about-photo-frame"><img src="{{ '/assets/photos/laquila-italy.jpg' | relative_url }}" alt="A clay tennis court in L’Aquila, Italy." width="1600" height="1200" loading="lazy" decoding="async"></div>
+    <figcaption>L’Aquila, Italy</figcaption>
+  </figure>
+</div>
+
 ---
 
 > _Last updated: October 2026_
