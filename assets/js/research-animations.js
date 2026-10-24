@@ -5,7 +5,6 @@
   if (!canvases.length) return;
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   let paused = reduced.matches, elapsed = 0, last = 0, frame = null;
-  const button = document.querySelector('.animation-toggle');
   let seed = 17;
   const rand = () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
   const D = window.ResearchDynamics;
@@ -76,8 +75,7 @@
     }
   }
   function render(now) {frame=null;const dt=last?Math.min((now-last)/1000,.04):0;last=now;if(!paused)elapsed+=dt;scenes.forEach(s=>paint(s,paused?0:dt));if(!paused&&!document.hidden)frame=requestAnimationFrame(render);}
-  function sync(){button.textContent=paused?'Play animations':'Pause animations';button.setAttribute('aria-pressed',String(paused));last=0;if(frame!==null)cancelAnimationFrame(frame);frame=requestAnimationFrame(render);}
-  button.addEventListener('click',()=>{paused=!paused;sync();});
+  function sync(){last=0;if(frame!==null)cancelAnimationFrame(frame);frame=requestAnimationFrame(render);}
   reduced.addEventListener('change',()=>{paused=reduced.matches;sync();});
   document.addEventListener('visibilitychange',()=>{if(document.hidden){if(frame!==null)cancelAnimationFrame(frame);frame=null;}else sync();});
   new ResizeObserver(()=>{if(paused)scenes.forEach(s=>paint(s,0));}).observe(document.querySelector('.research-cards'));

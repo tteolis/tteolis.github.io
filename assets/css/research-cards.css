@@ -1,7 +1,5 @@
 
 /* Animated research overview */
-.research-overview-tools { display:flex; justify-content:flex-end; align-items:center; gap:12px; margin:0 0 16px; }
-.animation-toggle { font:inherit; font-size:11px; color:#506159; border:1px solid #bdcac1; border-radius:4px; background:transparent; padding:5px 9px; cursor:pointer; }
 .research-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
 .research-card { display:flex; flex-direction:column; min-width:0; background:#f6f8f5; border:1px solid #cbd5cd; border-radius:7px; padding:16px; }
 main .research-card h3 { color:#354d40; font:600 15px/1.4 "Noto Sans",sans-serif; margin:0 0 14px; min-height:42px; }
