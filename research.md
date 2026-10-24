@@ -2,17 +2,20 @@
 layout: default
 title: Research
 permalink: /research/
-description: "Research directions in mathematical machine learning, kinetic equations, sampling, transformer dynamics, and operator learning."
+description: "Sampling and particle methods, neural operators for physical systems, collective dynamics, and open problems, with interactive simulations."
+page_class: research-page
+research_assets: true
 ---
 
 # Research
 
-My current theoretical work, joint with Maarten de Hoop, studies the approximation of Boltzmann-type kinetic equations by machine-learning architectures. I represent Boltzmann dynamics through stochastic in-context maps inspired by Nanbu particle systems and jump-process formulations, with the goal of approximating solution operators in Wasserstein-type metrics.
+<div id="research-content" data-simulation-src="{{ '/assets/research/simulations.json?v=' | append: site.github.build_revision | relative_url }}">
+{% include research/sampling.html %}
+{% include research/physical-operators.html %}
+{% include research/collective-dynamics.html %}
+{% include research/open-problems.html %}
+<noscript><p>The research discussions and figures are available without JavaScript. The interactive particle simulations require JavaScript.</p></noscript>
+</div>
 
-My work on sampling and inference develops Stein variational gradient descent for singular kernels, including finite-particle convergence and long-time sampling results for renormalized Riesz-kernel dynamics.
-
-I study the long-time behavior of self-attention through interacting-particle models as part of a broader collaboration on the mathematical foundations of transformers.
-
-On the computational side, I develop neural surrogate models for wave propagation and subsurface imaging, with longer-term directions in full-waveform inversion and uncertainty-aware inverse problems.
-
-Across these projects, I use tools from partial differential equations, kinetic theory, stochastic processes, interacting particle systems, collective dynamics, and fluid mechanics.
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" defer></script>
+<script src="{{ '/assets/js/research-page.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>

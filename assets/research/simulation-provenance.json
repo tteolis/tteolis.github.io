@@ -1,0 +1,110 @@
+{
+  "green_bessel": {
+    "r": 2.05,
+    "length": 0.1,
+    "rank": 256,
+    "refinement_max_position_error": 5.440642441220667e-07,
+    "maximum_energy_increment": -1.408275113277263e-11,
+    "unchanged_other_trajectories": true,
+    "common_energy_recomputed": true,
+    "diagnostics": {
+      "1": {
+        "mmd": 0.17202388372654978,
+        "mmd_components": [
+          0.06142759308333042,
+          0.040760614541657664,
+          0.012515424882670378,
+          0.003665233781803612
+        ],
+        "within_mode_quantile_rmse": 0.13536696295999914,
+        "occupied_modes": 4,
+        "counts": [
+          14,
+          17,
+          17,
+          16
+        ],
+        "mean_abs": [
+          0.8145306355522961,
+          0.8206198767813352
+        ],
+        "target_mean_abs": 0.9288710070068766
+      },
+      "10": {
+        "mmd": 0.041674153717464385,
+        "mmd_components": [
+          0.006173296417436393,
+          0.0007303910870014862,
+          3.123287410317088e-05,
+          1.2019973726351552e-05
+        ],
+        "within_mode_quantile_rmse": 0.03900231658572458,
+        "occupied_modes": 4,
+        "counts": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "mean_abs": [
+          0.9239642981422143,
+          0.9246050760875667
+        ],
+        "target_mean_abs": 0.9288710070068766
+      },
+      "30": {
+        "mmd": 0.025584436904015385,
+        "mmd_components": [
+          0.002500459043767618,
+          0.00011485291153859323,
+          2.243875673491047e-06,
+          6.978158024750769e-07
+        ],
+        "within_mode_quantile_rmse": 0.025515970990622045,
+        "occupied_modes": 4,
+        "counts": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "mean_abs": [
+          0.9287218033350503,
+          0.9285126932197569
+        ],
+        "target_mean_abs": 0.9288710070068766
+      },
+      "3000": {
+        "mmd": 0.024459972603044968,
+        "mmd_components": [
+          0.002336081179877332,
+          5.657197594058361e-05,
+          3.9415510805218545e-07,
+          1.1372804087361743e-07
+        ],
+        "within_mode_quantile_rmse": 0.034158169305769606,
+        "occupied_modes": 4,
+        "counts": [
+          16,
+          16,
+          16,
+          16
+        ],
+        "mean_abs": [
+          0.9291893211323137,
+          0.9291935236408664
+        ],
+        "target_mean_abs": 0.9288710070068766
+      }
+    }
+  },
+  "langevin_display": {
+    "updates_per_screen_second": 10,
+    "frames_per_window": 101,
+    "screen_seconds_per_window": 10,
+    "integration_step_unchanged": true,
+    "archived_path_bitwise_unchanged": true,
+    "maximum_sampling_time_offset": 0.000998412864760212,
+    "work": "periodic crossings 0; max internal coordinate 1.63328"
+  }
+}

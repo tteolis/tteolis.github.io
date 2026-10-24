@@ -24,19 +24,19 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
   <h3>Sampling &amp; particle methods</h3>
   <div class="research-animation"><canvas data-research="sampling" role="img" aria-label="RBF-kernel Stein variational gradient descent approximating a two-Gaussian target; replayed after settling."></canvas></div>
   <p>Designing interacting particle systems for efficient sampling.</p>
-  <a class="research-explore" href="{{ '/research/' | relative_url }}">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Sampling &amp; particle methods</span></a>
+  <a class="research-explore" href="{{ '/research/' | relative_url }}#sampling">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Sampling &amp; particle methods</span></a>
 </article>
 <article class="research-card">
   <h3>Learning physical operators</h3>
   <div class="research-animation"><canvas data-research="operators" role="img" aria-label="Reference and learned prediction of the real acoustic pressure field from WaveBench, held-out sample 46169."></canvas></div>
   <p>Neural operators and foundation models for physical systems.</p>
-  <a class="research-explore" href="{{ '/research/' | relative_url }}">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Learning physical operators</span></a>
+  <a class="research-explore" href="{{ '/research/' | relative_url }}#physical-operators">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Learning physical operators</span></a>
 </article>
 <article class="research-card">
   <h3>Collective dynamics</h3>
   <div class="research-animation"><canvas data-research="collective" role="img" aria-label="Illustrative transformer token clustering and Cucker–Smale velocity alignment."></canvas></div>
   <p>How local interactions produce emergent macroscopic behavior.</p>
-  <a class="research-explore" href="{{ '/research/' | relative_url }}">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Collective dynamics</span></a>
+  <a class="research-explore" href="{{ '/research/' | relative_url }}#collective-dynamics">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Collective dynamics</span></a>
 </article>
 </div>
 <p class="animation-note">SVGD and alignment simulations · WaveBench acoustic pressure fields</p>
