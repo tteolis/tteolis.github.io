@@ -73,3 +73,14 @@
 #research-content button:focus-visible, #research-content select:focus-visible { outline:2px solid var(--gb); outline-offset:3px; }
 @media (max-width:520px) { #research-content { padding:0; } }
 @media (prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+
+/* Compact simulation groups while retaining full-size labels and controls. */
+#research-content .svgd-panels,
+#research-content .cs-panels,
+#research-content .eigen-panels,
+#research-content .plot-holder { width:100%; max-width:720px; }
+#research-content .fluid-simulation { width:100%; max-width:480px; margin:0; }
+#research-content .controls,
+#research-content .experiment-settings,
+#research-content .legend { max-width:720px; }
+#research-content .controls[data-player="fluid"] { max-width:480px; }
