@@ -11,11 +11,37 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 
 ## Research Overview
 
-My research interests began with interacting particle systems, which I studied during my PhD. Around 2023, I became interested in machine learning through the study of transformer token dynamics and particle-based sampling methods (and also because LLMs are crazy cool). Much of my current work can be understood through Bayesian inverse problems, which involve two central questions: how do we model the evolution of a physical system, and how do we infer its unknown parameters from observations?
+<div class="research-introduction">
+<p>My background is in interacting particle systems, collective dynamics, and kinetic and hydrodynamic limits, which I studied during my PhD. Around 2023, I became interested in machine learning through the study of transformer token dynamics, which share structural similarities with models of collective dynamics such as the Kuramoto model (and also because LLMs are cool).</p>
+<p>This led naturally to particle-based methods in machine learning and inference. Many modern sampling algorithms can themselves be viewed as interacting particle systems, where the particles evolve collectively in order to approximate a target probability distribution. Much of my current work can be understood through the lens of Bayesian inverse problems, which involve two central questions: how do we model the evolution of a physical system, and how do we infer its unknown parameters from observations?</p>
+<p>On the forward side, I study neural operators for kinetic, fluid, and wave dynamics. We are developing new architectures and training them at scale on acoustic wave datasets.</p>
+<p>On the inverse side, I develop particle-based methods for sampling posterior distributions. I am particularly interested in understanding when and how the empirical distribution of the particles converges to the target distribution as the number of particles tends to infinity.</p>
+</div>
 
-On the forward side, I study neural operators for kinetic, fluid, and wave dynamics. We introduced the stochastic jump transformer, an architecture designed to capture stochastic pairwise interactions such as physical collisions. We are also developing Markov Kernel Networks, a common framework for architectures including vision transformers, Fourier neural operators, and Flowers, which allows us to combine their different interaction mechanisms. We are currently training these hybrid models at scale on acoustic wave datasets.
-
-On the inverse side, I am developing particle-based methods for sampling posterior distributions. A question that particularly interests me is whether these methods can be proved to converge to their target distributions as the number of particles tends to infinity. Our recent work on preconditioned Stein variational gradient descent (SVGD) constructs a finite-particle Lyapunov functional, providing rigorous long-time convergence results.
+<div class="research-overview-tools"><a href="{{ '/research/' | relative_url }}">Explore research <span aria-hidden="true">→</span></a><button class="animation-toggle" type="button" aria-pressed="false">Pause animations</button></div>
+<div class="research-cards">
+<article class="research-card">
+  <h3>Sampling &amp; particle methods</h3>
+  <div class="research-animation"><canvas data-research="sampling" role="img" aria-label="RBF-kernel Stein variational gradient descent approximating a two-Gaussian target; replayed after settling."></canvas></div>
+  <p>Designing interacting particle systems for efficient sampling.</p>
+  <a class="research-explore" href="{{ '/research/' | relative_url }}">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Sampling &amp; particle methods</span></a>
+</article>
+<article class="research-card">
+  <h3>Learning physical operators</h3>
+  <div class="research-animation"><canvas data-research="operators" role="img" aria-label="Reference and learned prediction of the real acoustic pressure field from WaveBench, held-out sample 46169."></canvas></div>
+  <p>Neural operators and foundation models for physical systems.</p>
+  <a class="research-explore" href="{{ '/research/' | relative_url }}">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Learning physical operators</span></a>
+</article>
+<article class="research-card">
+  <h3>Collective dynamics</h3>
+  <div class="research-animation"><canvas data-research="collective" role="img" aria-label="Illustrative transformer token clustering and Cucker–Smale velocity alignment."></canvas></div>
+  <p>How local interactions produce emergent macroscopic behavior.</p>
+  <a class="research-explore" href="{{ '/research/' | relative_url }}">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Collective dynamics</span></a>
+</article>
+</div>
+<p class="animation-note">SVGD and alignment simulations · WaveBench acoustic pressure fields</p>
+<script src="{{ "/assets/js/research-dynamics.js" | relative_url }}" defer></script>
+<script src="{{ "/assets/js/research-animations.js" | relative_url }}" defer></script>
 
 ## Background
 

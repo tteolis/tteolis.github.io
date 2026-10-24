@@ -1,0 +1,12 @@
+{
+  "dataset": "WaveBench, time-harmonic isotropic acoustic, 10 Hz",
+  "sample": 46169,
+  "split": "test",
+  "displayed_quantity": "Real component of stored pressure field",
+  "panels": ["Numerical reference", "Agent-mixture model prediction"],
+  "source_repository": "tteolis/MKN",
+  "source_path": "reports/oxy-agent-mixture-10hz-index46169.png",
+  "source_blob_sha": "8f9c68764f12168a5a734f2fc8b962a9bccc90a7",
+  "dataset_url": "https://zenodo.org/records/10629581",
+  "rendering": "Cropped reference-real and prediction-real panels from the source evaluation figure; no fabricated wave evolution."
+}
