@@ -16,7 +16,7 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 <p>Much of my current work is motivated by Bayesian inverse problems: how to model physical systems, and how to infer unknown parameters from observations. On the forward side, I study neural operators for kinetic, fluid, and wave dynamics, including new architectures trained at scale on acoustic wave datasets. On the inverse side, I develop particle-based methods for sampling posterior distributions.</p>
 </div>
 
-<div class="research-overview-tools"><a href="{{ '/research/' | relative_url }}">Explore research <span aria-hidden="true">→</span></a><button class="animation-toggle" type="button" aria-pressed="false">Pause animations</button></div>
+<div class="research-overview-tools"><button class="animation-toggle" type="button" aria-pressed="false">Pause animations</button></div>
 <div class="research-cards">
 <article class="research-card">
   <h3>Sampling &amp; particle methods</h3>

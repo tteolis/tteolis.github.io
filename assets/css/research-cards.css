@@ -1,7 +1,6 @@
 
 /* Animated research overview */
-.research-overview-tools { display:flex; justify-content:space-between; align-items:center; gap:12px; margin:0 0 16px; }
-.research-overview-tools > a { font-weight:600; }
+.research-overview-tools { display:flex; justify-content:flex-end; align-items:center; gap:12px; margin:0 0 16px; }
 .animation-toggle { font:inherit; font-size:11px; color:#506159; border:1px solid #bdcac1; border-radius:4px; background:transparent; padding:5px 9px; cursor:pointer; }
 .research-cards { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
 .research-card { display:flex; flex-direction:column; min-width:0; background:#f6f8f5; border:1px solid #cbd5cd; border-radius:7px; padding:16px; }
@@ -20,7 +19,7 @@ a:focus-visible,button:focus-visible { outline:2px solid #386f64; outline-offset
 @media screen and (max-width:760px) { .research-cards { grid-template-columns:1fr; } main .research-card h3 { min-height:0; } .wrapper { margin:0; } }
 
 /* Personal photos: preserve the complete images, including portrait compositions. */
-.about-photo-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px 18px; margin:1.2rem 0 2rem; }
+.about-photo-grid { display:grid; width:100%; max-width:480px; grid-template-columns:repeat(2,minmax(0,1fr)); gap:22px 18px; margin:1.2rem 0 2rem; }
 .about-photo-grid figure { min-width:0; margin:0; }
 .about-photo-frame { aspect-ratio:4 / 3; overflow:hidden; background:#dce4df; border:1px solid #c7d0ca; border-radius:5px; }
 .about-photo-frame img { display:block; width:100%; height:100%; object-fit:contain; }
