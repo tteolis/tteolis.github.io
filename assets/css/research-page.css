@@ -124,3 +124,5 @@
 
 /* Limit standalone plots as well as the simulation groups. */
 #research-content svg.plot { max-width:500px; }
+
+#research-content .experiment-settings { max-width:540px; }

@@ -48,7 +48,7 @@
     const paths={};
     function axis(id,height,xDomain,yDomain,xLabel,yLabel,log=false,square=false,timeLog=false,timeConstant=1){
       const svg=d3.select(root.querySelector('#'+id)),w=svg.node().clientWidth;
-      const h=square?Math.min(w,220):Math.min(height,150), m={left:w<180?34:w<320?50:64,right:10,top:10,bottom:w<180?32:42};
+      const h=square?Math.min(w,220):Math.min(height,150), m={left:w<180?42:w<320?50:64,right:10,top:10,bottom:42};
       svg.attr('viewBox',`0 0 ${w} ${h}`).attr('height',h); svg.selectAll('*').remove();
       let pw=Math.max(20,w-m.left-m.right),ph=Math.max(20,h-m.top-m.bottom);
       if(square){const size=Math.min(pw,ph);pw=ph=size;}
