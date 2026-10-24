@@ -104,3 +104,20 @@
 .research-topic-nav a:focus-visible { outline:2px solid #386f64; outline-offset:3px; }
 .research-page #research-content > section { scroll-margin-top:84px; }
 @media(max-width:600px) { .research-topic-nav { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px; padding:8px 0; } .research-topic-nav a { padding:8px 4px; font-size:11px; } .research-page #research-content > section { scroll-margin-top:96px; } }
+
+/* Center research visuals and their playback controls without enlarging them. */
+#research-content .svgd-panels,
+#research-content .cs-panels,
+#research-content .eigen-panels,
+#research-content .plot-holder,
+#research-content .fluid-simulation,
+#research-content figure,
+#research-content .research-figure,
+#research-content .figure-labels,
+#research-content .controls,
+#research-content .experiment-settings,
+#research-content .legend,
+#research-content svg.plot {
+  margin-left:auto;
+  margin-right:auto;
+}
