@@ -8,8 +8,8 @@ page_class: publications-page
 
 # Manuscripts in Preparation
 
-1. T. Teolis, S. D. Mis, and M. V. de Hoop. Hybrid Markov kernel networks: applications to wave modeling.
-2. T. Teolis, A. Siahkoohi, and M. V. de Hoop. Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.
+- T. Teolis, S. D. Mis, and M. V. de Hoop. Hybrid Markov kernel networks: applications to wave modeling.
+- T. Teolis, A. Siahkoohi, and M. V. de Hoop. Finite-Mode Preconditioned SVGD with a Particle-Level Lyapunov Functional.
 
 # Publications/Preprints
 
