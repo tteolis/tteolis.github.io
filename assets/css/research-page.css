@@ -97,13 +97,13 @@
 }
 
 /* Sticky research topic navigation. */
-.research-topic-nav { position:sticky; top:0; z-index:20; display:flex; gap:8px; padding:10px 0; margin:0 0 20px; background:#edf1ee; border-bottom:1px solid #c5d2c9; box-shadow:0 5px 8px -8px #506159; }
-.research-topic-nav a { display:flex; align-items:center; justify-content:center; padding:8px 15px; border:1px solid #bfcdc2; border-radius:4px; color:#365b48; background:#e4ece6; font-size:13px; line-height:1.4; font-weight:400; text-align:center; text-decoration:none; }
+.research-topic-nav { position:sticky; top:0; z-index:20; display:flex; gap:8px; padding:4px 0; margin:0 0 14px; background:#edf1ee; border-bottom:1px solid #c5d2c9; box-shadow:0 5px 8px -8px #506159; }
+.research-topic-nav a { display:flex; align-items:center; justify-content:center; padding:4px 15px; border:1px solid #bfcdc2; border-radius:4px; color:#365b48; background:#e4ece6; font-size:13px; line-height:1.4; font-weight:400; text-align:center; text-decoration:none; }
 .research-topic-nav a:hover { background:#d6e4da; font-weight:400; text-decoration:none; }
 .research-topic-nav a[aria-current="location"] { background:#365b48; border-color:#365b48; color:#fff; }
 .research-topic-nav a:focus-visible { outline:2px solid #386f64; outline-offset:3px; }
-.research-page #research-content > section { scroll-margin-top:84px; }
-@media(max-width:600px) { .research-topic-nav { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px; padding:8px 0; } .research-topic-nav a { padding:8px 4px; font-size:11px; } .research-page #research-content > section { scroll-margin-top:96px; } }
+.research-page #research-content > section { scroll-margin-top:60px; }
+@media(max-width:600px) { .research-topic-nav { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:4px; padding:4px 0; } .research-topic-nav a { padding:4px 4px; font-size:11px; } .research-page #research-content > section { scroll-margin-top:72px; } }
 
 /* Center research visuals and their playback controls without enlarging them. */
 #research-content .svgd-panels,

@@ -216,7 +216,7 @@
       icon(row.querySelector('.play'),false);makeSv();update('svgd');
     }
     function icon(button,playing){button.innerHTML='<i class="fa-solid fa-'+(playing?'pause':'play')+'" aria-hidden="true"></i>';button.setAttribute('aria-label',playing?'Pause animation':'Play animation');}
-    function update(key){const p=players[key],row=root.querySelector(`[data-player="${key}"]`);row.querySelector('input').value=key==='svgd'?svClock(p.t)/svClock(svEnd()):p.t;row.querySelector('output').textContent=`t = ${formatTime(p.t)}`;if(key==='svgd')root.querySelector('#playback-caption').textContent=`Shared time: ${svStart()} ≤ t ≤ ${svEnd()}. Constant playback: ${svSpeed(p.t).toPrecision(3)} simulation-time units per screen second.`;draw(key);}
+    function update(key){const p=players[key],row=root.querySelector(`[data-player="${key}"]`);row.querySelector('input').value=key==='svgd'?svClock(p.t)/svClock(svEnd()):p.t;row.querySelector('output').textContent=`t = ${formatTime(p.t)}`;draw(key);}
     root.querySelectorAll('[data-player]').forEach(row=>{
       const key=row.dataset.player,p=players[key],input=row.querySelector('input'),button=row.querySelector('.play');
       icon(button,false);
