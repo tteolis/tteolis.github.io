@@ -55,17 +55,6 @@ I received my Ph.D. in Mathematics from the University of Illinois Chicago, advi
 - [Inverse Days 2026](https://fips.fi/inverse-days-2026/)<br>
   University of Jyväskylä, Jyväskylä, Finland, December 14-17, 2026.
 
-## Selected Invited Talks
-
-- “Approximating Boltzmann solution maps by averaged measure-theoretic transformers.”<br>
-  Minisymposium <em>Mathematical Foundations of Learning for Infinite-Dimensional Systems and PDEs</em>, SIAM Conference on Mathematics of Data Science, Salt Lake City, Utah, November 2026. Upcoming.
-
-- “Jump processes, stochastic in-context maps, mean-field limits, and the Boltzmann equation.”<br>
-  <em>Models of Emergence and Collective Dynamics</em>, 15th AIMS Conference, Athens, Greece, July 2026.
-
-- “Nanbu particles as stochastic in-context maps for Boltzmann dynamics.”<br>
-  <em>Measure Flows for Inverse Problems and Machine Learning</em>, SIAM Conference on Uncertainty Quantification, Minneapolis, Minnesota, March 2026.
-
 ## About Me
 
 I like to play tennis, soccer, and football (anything with running and a ball is pretty good). Occasionally, I [make music](https://soundcloud.com/trevor-teolis/sets) with guitar and piano. I tend to inhabit Houston, Milwaukee, Chicago, and D.C. Sometimes, I end up in other places.
