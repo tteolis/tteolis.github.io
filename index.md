@@ -12,8 +12,7 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 ## Research Overview
 
 <div class="research-introduction">
-<p>My background is in interacting particle systems, collective dynamics, and kinetic and hydrodynamic limits. Around 2023, I became interested in machine learning through transformer token dynamics, which share structural similarities with the Kuramoto model of collective dynamics (and also because LLMs are cool). This led naturally to particle-based methods for inference.</p>
-<p>Much of my current work is motivated by Bayesian inverse problems: how to model physical systems (the forward model), and how to infer unknown parameters from observations (the inverse problem). On the forward side, I study neural operators for kinetic, fluid, and wave dynamics, including new architectures trained at scale on acoustic wave datasets. On the inverse side, I develop particle-based methods for sampling posterior distributions.</p>
+<p>My background is in interacting particle systems, collective dynamics, and kinetic and hydrodynamic limits. Around 2023, I became interested in machine learning through transformer token dynamics and particle-based inference (and also because LLMs are cool). Much of my current work is motivated by Bayesian inverse problems: how to model physical systems (the forward model), and how to infer unknown parameters from observations (the inverse problem). On the forward side, I study neural operators for kinetic, fluid, and wave dynamics; on the inverse side, I develop particle-based methods for sampling posterior distributions.</p>
 </div>
 
 <div class="research-cards">
