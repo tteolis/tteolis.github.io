@@ -37,8 +37,8 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 </article>
 </div>
 <p class="animation-note">SVGD and alignment simulations · WaveBench acoustic pressure fields</p>
-<script src="{{ "/assets/js/research-dynamics.js" | relative_url }}" defer></script>
-<script src="{{ "/assets/js/research-animations.js" | relative_url }}" defer></script>
+<script src="{{ '/assets/js/research-dynamics.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
+<script src="{{ '/assets/js/research-animations.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
 
 ## Background
 
