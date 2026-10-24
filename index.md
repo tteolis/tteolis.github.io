@@ -3,17 +3,11 @@ layout: default
 description: "Trevor Teolis is a postdoctoral researcher at Rice University working on mathematical machine learning, kinetic equations, interacting particles, and scientific computing."
 ---
 
-# Trevor Teolis
-
 Postdoctoral Researcher, Rice University<br>
 Department of Computational and Applied Mathematics & Operations Research (CMOR)<br>
 Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 
 ## Research Overview
-
-<div class="research-introduction">
-<p>My background is in interacting particle systems, collective dynamics, and kinetic and hydrodynamic limits. Around 2023, I became interested in machine learning through transformer token dynamics and particle-based inference (and also because LLMs are cool). Much of my current work is motivated by Bayesian inverse problems: how to model physical systems (the forward model), and how to infer unknown parameters from observations (the inverse problem). On the forward side, I study neural operators for kinetic, fluid, and wave dynamics; on the inverse side, I develop particle-based methods for sampling posterior distributions.</p>
-</div>
 
 <div class="research-cards">
 <a class="research-card" href="{{ '/research/' | relative_url }}#sampling" aria-labelledby="home-research-sampling">
@@ -36,6 +30,10 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 </a>
 </div>
 <p class="animation-note">SVGD and alignment simulations · WaveBench acoustic pressure fields</p>
+
+<div class="research-introduction">
+<p>My background is in interacting particle systems, collective dynamics, and kinetic and hydrodynamic limits. Around 2023, I became interested in machine learning through transformer token dynamics and particle-based inference (and also because LLMs are cool). Much of my current work is motivated by Bayesian inverse problems: how to model physical systems (the forward model), and how to infer unknown parameters from observations (the inverse problem). On the forward side, I study neural operators for kinetic, fluid, and wave dynamics; on the inverse side, I develop particle-based methods for sampling posterior distributions.</p>
+</div>
 <script src="{{ '/assets/js/research-dynamics.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
 <script src="{{ '/assets/js/research-animations.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
 
