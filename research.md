@@ -9,6 +9,12 @@ research_assets: true
 
 # Research
 
+<nav class="research-topic-nav" aria-label="Research topics">
+<a href="#sampling" aria-current="location">Sampling</a>
+<a href="#physical-operators">Physical operators</a>
+<a href="#collective-dynamics">Collective dynamics</a>
+</nav>
+
 <div id="research-content" data-simulation-src="{{ '/assets/research/simulations.json?v=' | append: site.github.build_revision | relative_url }}">
 {% include research/sampling.html %}
 {% include research/physical-operators.html %}
@@ -19,3 +25,5 @@ research_assets: true
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" defer></script>
 <script src="{{ '/assets/js/research-page.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
+
+<script src="{{ '/assets/js/research-navigation.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
