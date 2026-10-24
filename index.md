@@ -16,24 +16,24 @@ Email: <a href="mailto:tt111@rice.edu">tt111@rice.edu</a>
 </div>
 
 <div class="research-cards">
-<article class="research-card">
-  <h3>Sampling &amp; particle methods</h3>
+<a class="research-card" href="{{ '/research/' | relative_url }}#sampling" aria-labelledby="home-research-sampling">
+  <h3 id="home-research-sampling">Sampling &amp; particle methods</h3>
   <div class="research-animation"><canvas data-research="sampling" role="img" aria-label="RBF-kernel Stein variational gradient descent approximating a two-Gaussian target; replayed after settling."></canvas></div>
   <p>Designing interacting particle systems for efficient sampling.</p>
-  <a class="research-explore" href="{{ '/research/' | relative_url }}#sampling">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Sampling &amp; particle methods</span></a>
-</article>
-<article class="research-card">
-  <h3>Learning physical operators</h3>
+  <span class="research-explore">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Sampling &amp; particle methods</span></span>
+</a>
+<a class="research-card" href="{{ '/research/' | relative_url }}#physical-operators" aria-labelledby="home-research-physical-operators">
+  <h3 id="home-research-physical-operators">Learning physical operators</h3>
   <div class="research-animation"><canvas data-research="operators" role="img" aria-label="Reference and learned prediction of the real acoustic pressure field from WaveBench, held-out sample 46169."></canvas></div>
   <p>Neural operators and foundation models for physical systems.</p>
-  <a class="research-explore" href="{{ '/research/' | relative_url }}#physical-operators">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Learning physical operators</span></a>
-</article>
-<article class="research-card">
-  <h3>Collective dynamics</h3>
+  <span class="research-explore">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Learning physical operators</span></span>
+</a>
+<a class="research-card" href="{{ '/research/' | relative_url }}#collective-dynamics" aria-labelledby="home-research-collective-dynamics">
+  <h3 id="home-research-collective-dynamics">Collective dynamics</h3>
   <div class="research-animation"><canvas data-research="collective" role="img" aria-label="Illustrative transformer token clustering and Cucker–Smale velocity alignment."></canvas></div>
   <p>How local interactions produce emergent macroscopic behavior.</p>
-  <a class="research-explore" href="{{ '/research/' | relative_url }}#collective-dynamics">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Collective dynamics</span></a>
-</article>
+  <span class="research-explore">Explore <span aria-hidden="true">→</span><span class="visually-hidden"> Collective dynamics</span></span>
+</a>
 </div>
 <p class="animation-note">SVGD and alignment simulations · WaveBench acoustic pressure fields</p>
 <script src="{{ '/assets/js/research-dynamics.js?v=' | append: site.github.build_revision | relative_url }}" defer></script>
