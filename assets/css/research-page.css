@@ -126,3 +126,10 @@
 #research-content svg.plot { max-width:500px; }
 
 #research-content .experiment-settings { max-width:540px; }
+
+/* Full-width, consistently typeset equations, including nested disclosures. */
+#research-content .equations { gap:8px; min-width:0; }
+#research-content [data-tex] { width:100%; max-width:100%; min-width:0; overflow-x:auto; overflow-y:hidden; padding:6px 0; font-size:16px; line-height:1.5; color:var(--ink); }
+#research-content [data-tex] .katex { font-size:1em; }
+#research-content [data-tex] .katex-display { margin:0; }
+#research-content [data-tex] .katex-display > .katex { width:max-content; min-width:100%; }
